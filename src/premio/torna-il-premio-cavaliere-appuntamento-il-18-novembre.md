@@ -1,9 +1,9 @@
 ---
-title: "Torna il Premio “Michele Cavaliere”: motivazioni e premi della 4ª edizione"
+title: 'Premio “Michele Cavaliere”: motivazioni e premiati della 4ª edizione'
+edizione: 4ª edizione
 date: 2022-11-10
-edizione: "4ª edizione"
 image: /wp-content/uploads/2022/11/2022.jpg
-excerpt: "La speciale commissione del Premio si è riunita per l’edizione 2022 e ha attribuito i riconoscimenti."
+excerpt: La speciale commissione del Premio si è riunita per l’edizione 2022 e ha attribuito i riconoscimenti.
 ---
 
 Si è riunita, nei giorni scorsi, la speciale commissione del Premio “Michele Cavaliere”, presieduta da Raffaele Cavaliere, per l’edizione 2022 del Premio e per valutare le candidature pervenute alle quali attribuire il riconoscimento, che giunge quest’anno alla sua quarta edizione.
