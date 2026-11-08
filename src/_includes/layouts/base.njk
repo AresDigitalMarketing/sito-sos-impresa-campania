@@ -115,8 +115,8 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
     </div>
     <div class="piede-dove">
       <h2>Contatti</h2>
-      <p>Numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a><br>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      <p>WhatsApp <a href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener">{{ site.cellulare }}</a><br>
+      Mail <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
       {{ site.sede }}</p>
       {% include "social.njk" %}
     </div>
