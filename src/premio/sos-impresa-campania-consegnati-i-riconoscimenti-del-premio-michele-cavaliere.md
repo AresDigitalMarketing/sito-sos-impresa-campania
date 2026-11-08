@@ -1,9 +1,9 @@
 ---
-title: "Consegnati i riconoscimenti per la 3ª edizione del Premio “Michele Cavaliere”"
+title: Motivazioni e premiati della 3ª edizione del Premio “Michele Cavaliere”
+edizione: 3ª edizione
 date: 2021-07-12
-edizione: "3ª edizione"
 image: /wp-content/uploads/2021/07/PREMIO-MICHELE-CAVALIERE-2021.jpeg
-excerpt: "La cerimonia di consegna si è svolta il 7 luglio nella chiesa di Sant’Erasmo di Gragnano."
+excerpt: La cerimonia di consegna si è svolta il 7 luglio nella chiesa di Sant’Erasmo di Gragnano.
 ---
 
 Si è svolta mercoledì 7 luglio la cerimonia di consegna dei riconoscimenti della terza edizione del Premio “Michele Cavaliere”.
