@@ -6,9 +6,9 @@ image: /wp-content/uploads/2025/09/premiocavaliere.jpg
 excerpt: Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio.
 ---
 
-Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio “Michele Cavaliere”, nato per sottolineare la cultura e l’impegno antimafia nella lotta al racket, all’usura e alla corruzione.
+Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio “**Michele Cavaliere**”, nato per sottolineare la cultura e l’impegno antimafia nella lotta al racket, all’usura e alla corruzione.
 
-L’introduzione e i saluti sono stati affidati a Luigi Cuomo, presidente di SOS Impresa – Rete per la Legalità Aps, e al Sindaco di Castellammare Gaetano Cimmino.
+L’introduzione e i saluti sono stati affidati a **Luigi Cuomo**, presidente di SOS Impresa – Rete per la Legalità Aps, e al Sindaco di Castellammare **Gaetano Cimmino**.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
