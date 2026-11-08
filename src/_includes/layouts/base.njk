@@ -1,0 +1,150 @@
+{%- set menu = [
+  { url: "/", nome: "Home" },
+  { url: "/chi-siamo/", nome: "Chi siamo" },
+  { nome: "Antiracket", voci: [
+    ["/convenzioniantiracket/", "Convenzione Antiracket"],
+    ["/patto-antiracket/", "Patto Antiracket"]
+  ] },
+  { url: "/notizie/", nome: "Notizie" },
+  { url: "/comunicati-stampa/", nome: "Comunicati" },
+  { nome: "Documenti", voci: [
+    ["/documentazione/", "Documentazione"],
+    ["/legislazione/", "Legislazione"],
+    ["/pubblicazioni/", "Pubblicazioni"],
+    ["/centro-studi-temi/", "Centro Studi Temi"],
+    ["/legge-n-124/", "Legge 124/2017"]
+  ] },
+  { nome: "Progetti", voci: [
+    ["/por-campania/", "P.O.R. Campania"],
+    ["/discover/", "Discover"],
+    ["/percorsi-di-sostenibilita/", "Percorsi di sostenibilità"],
+    ["/economia-circolare-e-digitalizzazione/", "Economia Circolare e Digitalizzazione"],
+    ["/progettare-in-italia/", "Progettare in Italia"],
+    ["/premio-michele-cavaliere/", "Premio “Michele Cavaliere”"]
+  ] },
+  { url: "/videogallery/", nome: "Videogallery" },
+  { url: "/contatti/", nome: "Contatti" }
+] -%}
+{%- set titoloPagina = (title + " – " + site.nome) if title else (site.nome + " – Associazione antiracket e antiusura") -%}
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titoloPagina }}</title>
+<meta name="description" content="{{ (excerpt or sottotitolo or site.descrizione) | striptags | truncate(160) }}">
+{%- if site.modalita_prova %}
+<meta name="robots" content="noindex, nofollow">
+{%- endif %}
+<meta property="og:title" content="{{ title or site.nome }}">
+<meta property="og:description" content="{{ (excerpt or sottotitolo or site.descrizione) | striptags | truncate(200) }}">
+<meta property="og:type" content="{{ 'article' if layout == 'layouts/articolo.njk' else 'website' }}">
+{%- if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+<link rel="icon" href="/wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/style.css?v={{ versione }}">
+{%- if site.url %}
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{%- endif %}
+<!-- Google Consent Mode v2 (tutto negato finché non c'è consenso) + Google Tag Manager -->
+<script>
+window.SITO_TRACCIAMENTO={gtm:"{{ site.gtm_id }}",pixel:"{{ site.meta_pixel_id }}"};
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
+gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);
+try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.t<15552e6)gtag('consent','update',{analytics_storage:c.s?'granted':'denied',ad_storage:c.m?'granted':'denied',ad_user_data:c.m?'granted':'denied',ad_personalization:c.m?'granted':'denied'})}catch(e){}
+{%- if site.gtm_id %}
+(function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','{{ site.gtm_id }}');
+{%- endif %}
+</script>
+<script src="/assets/js/consenso.js?v={{ versione }}" defer></script>
+</head>
+<body>
+<a class="salta" href="#contenuto">Vai al contenuto</a>
+{%- if site.modalita_prova %}
+<div class="avviso-prova">Versione di prova del nuovo sito</div>
+{%- endif %}
+
+<header class="testata">
+  <div class="contenitore">
+    <a class="marchio" href="/">
+      <img src="/wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg" alt="SOS Impresa Campania – Rete per la Legalità" width="337" height="145">
+    </a>
+    <nav class="menu" aria-label="Menu principale">
+      {%- for v in menu %}
+        {%- if v.voci %}
+        <div class="tendina">
+          <button type="button" aria-haspopup="true">{{ v.nome }}<svg width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+          <div class="tendina-voci">
+            {%- for s in v.voci %}<a href="{{ s[0] }}">{{ s[1] }}</a>{% endfor %}
+          </div>
+        </div>
+        {%- else %}
+        <a href="{{ v.url }}"{% if page.url == v.url or (v.url != '/' and page.url.startsWith(v.url)) %} aria-current="page"{% endif %}>{{ v.nome }}</a>
+        {%- endif %}
+      {%- endfor %}
+    </nav>
+    <a class="tel-testata" href="tel:{{ site.numero_verde | replace(' ', '') }}"><small>Numero verde</small>{{ site.numero_verde }}</a>
+    <details class="menu-mobile">
+      <summary>Menu</summary>
+      <nav aria-label="Menu principale (mobile)">
+        {%- for v in menu %}
+          {%- if v.voci %}
+          <span class="gruppo">{{ v.nome }}</span>
+          {%- for s in v.voci %}<a class="sotto" href="{{ s[0] }}">{{ s[1] }}</a>{% endfor %}
+          {%- else %}
+          <a href="{{ v.url }}">{{ v.nome }}</a>
+          {%- endif %}
+        {%- endfor %}
+      </nav>
+    </details>
+  </div>
+</header>
+
+<main id="contenuto">
+{{ content | safe }}
+</main>
+
+<section class="chiama" aria-label="Numero verde">
+  <div class="contenitore">
+    <p>Non aspettare ancora.<br>Chiama subito.</p>
+    <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a>
+  </div>
+</section>
+
+<section class="istituzioni" aria-label="Enti finanziatori">
+  <div class="contenitore">
+    <a href="/por-campania/"><img src="/wp-content/uploads/2026/01/stringa-istituzionale-Coesione-Italia_colore.jpg" alt="Coesione Italia 21-27 Campania, Cofinanziato dall’Unione europea, Repubblica Italiana, Regione Campania" width="2480" height="498" loading="lazy"></a>
+  </div>
+</section>
+
+<footer class="piede">
+  <div class="contenitore piede-alto">
+    <div class="piede-chi">
+      <img class="piede-logo" src="/wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg" alt="" width="337" height="145" loading="lazy">
+      <p class="piede-testo"><strong>{{ site.nome_completo }}.</strong> {{ site.iscrizioni }}</p>
+    </div>
+    <div class="piede-dove">
+      <h2>Contatti</h2>
+      <p>Numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a><br>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+      {{ site.sede }}</p>
+      {% include "social.njk" %}
+    </div>
+  </div>
+  <div class="piede-fondo">
+    <div class="contenitore">
+      <span>© {{ anno }} SOS Impresa – Rete per la Legalità</span>
+      <nav class="piede-link" aria-label="Note legali">
+        <a href="/privacy-policy/">Privacy policy</a>
+        <a href="/cookie-policy/">Cookie policy</a>
+        <a href="#" data-cookie-prefs>Preferenze cookie</a>
+        <a href="/admin/">Area riservata</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/sito.js?v={{ versione }}" defer></script>
+</body>
+</html>

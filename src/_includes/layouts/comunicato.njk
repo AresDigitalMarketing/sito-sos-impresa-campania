@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+{%- set immagineCom = image or (file if not (file | isPdf) else "") -%}
+<article class="articolo">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › <a href="/comunicati-stampa/">Comunicati stampa</a></nav>
+  <time class="scheda-data" style="font-size:15px" datetime="{{ page.date | dataIso }}">Comunicato stampa · {{ page.date | dataIt }}</time>
+  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
+  {%- if content | striptags | trim %}<div class="testo">{{ content | safe }}</div>{% endif %}
+  {%- if immagineCom %}
+  <figure><img src="{{ immagineCom }}" alt="Comunicato stampa: {{ title }}"></figure>
+  {%- endif %}
+  {%- if file %}
+  <div class="pulsanti"><a class="pulsante" href="{{ file }}" target="_blank" rel="noopener" download>Scarica il comunicato ({{ file | estensione }})</a></div>
+  {%- endif %}
+  <div class="condividi">
+    <strong>Condividi:</strong>
+    <a href="#" data-condividi="facebook" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://wa.me/?text={{ title | urlencode }}" data-condividi="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="mailto:?subject={{ title | urlencode }}" data-condividi="email">Email</a>
+  </div>
+</article>

@@ -1,0 +1,35 @@
+---
+layout: layouts/base.njk
+title: Videogallery
+permalink: /videogallery/
+---
+<div class="contenitore pagina-testa">
+  <h1>Videogallery</h1>
+  <p>I video delle nostre iniziative.</p>
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if collections.video.length %}
+  <div class="griglia">
+    {%- for v in collections.video %}
+    {%- set id = v.data.youtube | youtubeId %}
+    <div class="scheda">
+      {%- if id %}
+      <div class="video-box">
+        <button type="button" data-youtube="{{ id }}" aria-label="Guarda il video: {{ v.data.title }}">
+          <img src="https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg" alt="" loading="lazy">
+          <span class="play"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#FFFFFF"/></svg></span>
+        </button>
+      </div>
+      {%- endif %}
+      <div class="scheda-corpo">
+        <time class="scheda-data" datetime="{{ v.date | dataIso }}">{{ v.date | dataIt }}</time>
+        <span class="scheda-titolo" style="font-size:20px">{{ v.data.title }}</span>
+        {%- if not id and v.data.youtube %}<a href="{{ v.data.youtube }}" target="_blank" rel="noopener">Guarda il video →</a>{% endif %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+  {%- else %}
+  <p class="vuoto">I video saranno pubblicati a breve.</p>
+  {%- endif %}
+</div>

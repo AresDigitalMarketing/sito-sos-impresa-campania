@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Notizie
+pagination:
+  data: collections.notizie
+  size: 12
+  alias: elenco
+permalink: "/notizie/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+{%- import "schede.njk" as s -%}
+<div class="contenitore pagina-testa">
+  <h1>Notizie</h1>
+  <p>Le attività dell’associazione, gli incontri e gli aggiornamenti dal territorio.</p>
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if elenco.length %}
+  <div class="griglia">{% for n in elenco %}{{ s.notizia(n) }}{% endfor %}</div>
+  {%- else %}
+  <p class="vuoto">Non ci sono ancora notizie.</p>
+  {%- endif %}
+  {%- if pagination.pages.length > 1 %}
+  <nav class="paginazione" aria-label="Pagine">
+    {%- if pagination.href.previous %}<a class="pulsante contorno" href="{{ pagination.href.previous }}">← Più recenti</a>{% endif %}
+    {%- if pagination.href.next %}<a class="pulsante contorno" href="{{ pagination.href.next }}">Meno recenti →</a>{% endif %}
+  </nav>
+  {%- endif %}
+</div>

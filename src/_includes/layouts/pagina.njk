@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+{%- import "schede.njk" as s -%}
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {{ title }}</nav>
+  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
+  {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
+  <div class="testo">{{ content | safe }}</div>
+  {%- if documenti_categoria %}
+    {%- set elenco = collections.documenti | perCategoria(documenti_categoria) %}
+    {%- if elenco.length %}
+    <h2 style="font-size:28px;margin:40px 0 16px">Documenti da scaricare</h2>
+    {{ s.documenti(elenco) }}
+    {%- endif %}
+  {%- endif %}
+  {%- if galleria and galleria.length %}
+  <div class="foto intere" data-galleria style="margin-top:32px;max-width:1100px">
+    {%- for f in galleria %}
+    <button type="button" data-src="{{ f }}" aria-label="Ingrandisci immagine {{ loop.index }}"><img src="{{ f }}" alt="{{ title }} – immagine {{ loop.index }}" loading="lazy"></button>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+</div>

@@ -1,0 +1,7 @@
+# Intestazioni HTTP per Cloudflare (equivalenti a quelle di netlify.toml)
+/admin/*
+  Cache-Control: no-cache
+  X-Robots-Tag: noindex
+
+/assets/*
+  Cache-Control: public, max-age=604800

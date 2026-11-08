@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Contatti
+permalink: /contatti/
+---
+<div class="contenitore pagina-testa">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › Contatti</nav>
+  <h1>Contatti</h1>
+  <p style="max-width:none">Se sei vittima di estorsione o usura, chiamaci: ti ascoltiamo in modo riservato e gratuito.</p>
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  <div class="contatti-grid">
+    <div class="contatto"><span>Numero verde</span><a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a></div>
+    <div class="contatto"><span>Email</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+  </div>
+  <h2 style="margin:56px 0 20px">Dove siamo</h2>
+  {% include "sedi.njk" %}
+  <h2 style="margin:56px 0 12px">Seguici sui social</h2>
+  {% include "social.njk" %}
+</div>

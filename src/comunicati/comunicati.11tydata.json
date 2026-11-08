@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/comunicato.njk",
+  "permalink": "/comunicati-stampa/{{ page.fileSlug }}/"
+}

@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Comunicati stampa
+pagination:
+  data: collections.comunicati
+  size: 16
+  alias: elenco
+permalink: "/comunicati-stampa/{% if pagination.pageNumber > 0 %}pagina-{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+{%- import "schede.njk" as s -%}
+<div class="contenitore pagina-testa">
+  <h1>Comunicati stampa</h1>
+  <p>Tutti i comunicati dell’associazione, da leggere e scaricare.</p>
+</div>
+<div class="contenitore" style="padding-bottom:72px">
+  {%- if elenco.length %}
+  <div class="griglia stretta">{% for c in elenco %}{{ s.comunicato(c) }}{% endfor %}</div>
+  {%- else %}
+  <p class="vuoto">Non ci sono ancora comunicati.</p>
+  {%- endif %}
+  {%- if pagination.pages.length > 1 %}
+  <nav class="paginazione" aria-label="Pagine">
+    {%- if pagination.href.previous %}<a class="pulsante contorno" href="{{ pagination.href.previous }}">← Più recenti</a>{% endif %}
+    {%- if pagination.href.next %}<a class="pulsante contorno" href="{{ pagination.href.next }}">Meno recenti →</a>{% endif %}
+  </nav>
+  {%- endif %}
+</div>

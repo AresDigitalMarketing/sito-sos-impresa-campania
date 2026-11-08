@@ -1,0 +1,11 @@
+<ul class="sedi">
+  {%- for s in home.sedi %}
+  <li>
+    <small>{{ s.tipo }}</small>
+    <strong>{{ s.nome }}</strong>
+    <span>{{ s.indirizzo }}</span>
+    {%- if s.presso %}<span class="presso">{{ s.presso }}</span>{% endif %}
+    {%- if s.contatti %}<span class="presso">{{ s.contatti }}</span>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>

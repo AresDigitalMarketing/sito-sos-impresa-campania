@@ -1,0 +1,11 @@
+// Configurazione per Cloudflare Workers: pubblica la cartella _site generata da Eleventy.
+{
+  "name": "sos-impresa-campania",
+  "compatibility_date": "2026-09-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./_site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

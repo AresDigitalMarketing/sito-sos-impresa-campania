@@ -1,0 +1,56 @@
+# PROVVISORIO: immagini e PDF sono ancora presi dal vecchio sito. Da togliere quando i file sono stati copiati in src/wp-content
+/wp-content/*  https://www.sosimpresacampania.it/wp-content/:splat  302
+
+# Vecchi indirizzi del sito WordPress → nuovi indirizzi
+/wp-admin/*                           /admin/                302
+/wp-login.php                         /admin/                302
+/category/*                           /notizie/              301
+/feed/*                               /notizie/              301
+
+# Vecchi indirizzi dei comunicati (WordPress) → nuovi indirizzi
+/2026/08/29/comunicato-stampa-29-08-2026-img/  /comunicati-stampa/comunicato-stampa-29-08-2026/  301
+/2026/08/29/comunicato-stampa-29-08-2026/  /comunicati-stampa/comunicato-stampa-29-08-2026/  301
+/2026/07/01/comunicato-stampa-01-07-2026-img/  /comunicati-stampa/comunicato-stampa-01-07-2026/  301
+/2026/07/01/comunicato-stampa-01-07-2026/  /comunicati-stampa/comunicato-stampa-01-07-2026/  301
+/2026/05/30/comunicato-stampa-30-05-2026-img/  /comunicati-stampa/comunicato-stampa-30-05-2026/  301
+/2026/05/30/comunicato-stampa-30-05-2026/  /comunicati-stampa/comunicato-stampa-30-05-2026/  301
+/2026/05/19/comunicato-stampa-14-05-2026-img/  /comunicati-stampa/comunicato-stampa-19-05-2026/  301
+/2026/05/19/comunicato-stampa-19-05-2026/  /comunicati-stampa/comunicato-stampa-19-05-2026/  301
+/2026/05/14/comunicato-stampa-19-05-2026-img/  /comunicati-stampa/comunicato-stampa-14-05-2026/  301
+/2026/05/14/comunicato-stampa-14-05-2026/  /comunicati-stampa/comunicato-stampa-14-05-2026/  301
+/2026/04/16/comunicato-stampa-16-04-2026-img/  /comunicati-stampa/comunicato-stampa-16-04-2026/  301
+/2026/04/16/comunicato-stampa-16-04-2026/  /comunicati-stampa/comunicato-stampa-16-04-2026/  301
+/2026/04/01/comunicato-stampa-01-04-2026-img/  /comunicati-stampa/comunicato-stampa-01-04-2026/  301
+/2026/04/01/comunicato-stampa-01-04-2026/  /comunicati-stampa/comunicato-stampa-01-04-2026/  301
+/2026/03/14/comunicato-stampa-14-03-2026-img/  /comunicati-stampa/comunicato-stampa-14-03-2026/  301
+/2026/03/14/comunicato-stampa-14-03-2026/  /comunicati-stampa/comunicato-stampa-14-03-2026/  301
+/2026/01/21/comunicato-stampa-21-01-2026-img/  /comunicati-stampa/comunicato-stampa-21-01-2026/  301
+/2026/01/21/comunicato-stampa-21-01-2026/  /comunicati-stampa/comunicato-stampa-21-01-2026/  301
+/2025/12/29/comunicato-stampa-29-12-25-img/  /comunicati-stampa/comunicato-stampa-29-12-25/  301
+/2025/12/29/comunicato-stampa-29-12-25/  /comunicati-stampa/comunicato-stampa-29-12-25/  301
+/2025/12/02/comunicato-stampa-02-12-25-img/  /comunicati-stampa/comunicato-stampa-02-12-25/  301
+/2025/12/02/comunicato-stampa-02-12-25/  /comunicati-stampa/comunicato-stampa-02-12-25/  301
+/2025/11/17/comunicato-stampa-17-11-25-img/  /comunicati-stampa/comunicato-stampa-17-11-25/  301
+/2025/11/17/comunicato-stampa-17-11-25/  /comunicati-stampa/comunicato-stampa-17-11-25/  301
+/2025/11/06/comunicato-stampa-06-11-25-img/  /comunicati-stampa/comunicato-stampa-06-11-25/  301
+/2025/11/06/comunicato-stampa-06-11-25/  /comunicati-stampa/comunicato-stampa-06-11-25/  301
+/2025/10/31/comunicato-stampa-31-10-25-img/  /comunicati-stampa/comunicato-stampa-31-10-25/  301
+/2025/10/31/comunicato-stampa-31-10-25/  /comunicati-stampa/comunicato-stampa-31-10-25/  301
+/2025/09/01/comunicato-stampa-01-09-25-img/  /comunicati-stampa/comunicato-stampa-01-09-25/  301
+/2025/09/01/comunicato-stampa-01-09-25/  /comunicati-stampa/comunicato-stampa-01-09-25/  301
+/2025/07/30/comunicato-stampa-30-07-25-img/  /comunicati-stampa/comunicato-stampa-30-07-25/  301
+/2025/07/30/comunicato-stampa-30-07-25/  /comunicati-stampa/comunicato-stampa-30-07-25/  301
+/2025/07/15/comunicato-stampa-15-07-25-img/  /comunicati-stampa/comunicato-stampa-15-07-25/  301
+/2025/07/15/comunicato-stampa-15-07-25/  /comunicati-stampa/comunicato-stampa-15-07-25/  301
+/2025/06/26/comunicato-stampa-26-06-25-img/  /comunicati-stampa/comunicato-stampa-26-06-25/  301
+/2025/06/26/comunicato-stampa-26-06-25/  /comunicati-stampa/comunicato-stampa-26-06-25/  301
+/2025/06/04/comunicato-stampa-04-06-25-img/  /comunicati-stampa/comunicato-stampa-04-06-25/  301
+/2025/06/04/comunicato-stampa-04-06-25/  /comunicati-stampa/comunicato-stampa-04-06-25/  301
+/2025/05/28/comunicato-stampa-28-05-25-img/  /comunicati-stampa/comunicato-stampa-28-05-25/  301
+/2025/05/28/comunicato-stampa-28-05-25/  /comunicati-stampa/comunicato-stampa-28-05-25/  301
+/2025/05/20/comunicato-stampa-20-05-25-img/  /comunicati-stampa/comunicato-stampa-20-05-25/  301
+/2025/05/20/comunicato-stampa-20-05-25/  /comunicati-stampa/comunicato-stampa-20-05-25/  301
+/2025/04/17/comunicato-stampa-17-04-25-img/  /comunicati-stampa/comunicato-stampa-17-04-25/  301
+/2025/04/17/comunicato-stampa-17-04-25/  /comunicati-stampa/comunicato-stampa-17-04-25/  301
+/2025/04/15/comunicato-stampa-15-04-25-img/  /comunicati-stampa/comunicato-stampa-15-04-25/  301
+/2025/04/15/comunicato-stampa-15-04-25/  /comunicati-stampa/comunicato-stampa-15-04-25/  301

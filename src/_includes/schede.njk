@@ -1,0 +1,50 @@
+{%- macro immagine(src, alt, classe="scheda-img") -%}
+{%- if src -%}
+<img class="{{ classe }}" src="{{ src }}" alt="{{ alt }}" loading="lazy" decoding="async">
+{%- else -%}
+<div class="{{ classe }} vuota"><img src="/wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg" alt=""></div>
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro notizia(n) -%}
+<a class="scheda" href="{{ n.url }}">
+  {{ immagine(n.data.image, n.data.image_alt or "") }}
+  <div class="scheda-corpo">
+    <time class="scheda-data" datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time>
+    <span class="scheda-titolo">{{ n.data.title }}</span>
+    {%- if n.data.excerpt %}<p class="scheda-testo">{{ n.data.excerpt }}</p>{% endif %}
+  </div>
+</a>
+{%- endmacro -%}
+
+{%- macro comunicato(c) -%}
+<a class="scheda" href="{{ c.url }}">
+  {{ immagine(c.data.image or (c.data.file if not (c.data.file | isPdf) else ""), "", "scheda-img documento") }}
+  <div class="scheda-corpo compatto">
+    <span class="scheda-titolo" style="font-size:19px">{%- set tc = c.data.title -%}{%- if tc.startsWith("Comunicato stampa del ") -%}Comunicato stampa del<br>{{ tc.slice(22) }}{%- else -%}{{ tc }}{%- endif -%}</span>
+    <span class="scheda-azione">Leggi{% if c.data.file %} · scarica {{ c.data.file | estensione }}{% endif %}</span>
+  </div>
+</a>
+{%- endmacro -%}
+
+{%- macro album(a) -%}
+<a class="scheda" href="{{ a.url }}">
+  {{ immagine(a.data.cover or (a.data.foto[0] if a.data.foto else ""), "") }}
+  <div class="scheda-corpo">
+    <span class="scheda-titolo">{{ a.data.title }}</span>
+    <span class="scheda-azione">{{ a.data.foto | length if a.data.foto else 0 }} foto · Apri l’album →</span>
+  </div>
+</a>
+{%- endmacro -%}
+
+{%- macro documenti(elenco) -%}
+<ul class="elenco-doc">
+{%- for d in elenco %}
+  <li><a href="{{ d.data.file }}" target="_blank" rel="noopener">
+    <span class="tipo">{{ d.data.file | estensione }}</span>
+    <span class="titolo">{{ d.data.title }}</span>
+    {%- if d.data.mostra_data %}<span class="data">{{ d.date | dataIt }}</span>{% endif %}
+  </a></li>
+{%- endfor %}
+</ul>
+{%- endmacro -%}

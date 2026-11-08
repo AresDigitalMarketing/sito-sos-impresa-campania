@@ -1,0 +1,211 @@
+# Configurazione del pannello di gestione (Sveltia CMS).
+# L'unica riga da completare è "repo" qui sotto: nome-utente-github/nome-archivio
+
+backend:
+  name: github
+  repo: AresDigitalMarketing/sito-sos-impresa-campania
+  branch: main
+  base_url: https://sveltia-cms-auth.aresdigitalmarketing.workers.dev
+  commit_messages:
+    create: "Nuovo contenuto: {{collection}} “{{slug}}”"
+    update: "Modifica: {{collection}} “{{slug}}”"
+    delete: "Eliminato: {{collection}} “{{slug}}”"
+    uploadMedia: "Caricato file “{{path}}”"
+    deleteMedia: "Eliminato file “{{path}}”"
+
+logo:
+  src: /wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg
+
+media_folder: src/uploads
+public_folder: /uploads
+
+# Le foto caricate vengono ridotte e convertite in formato leggero (WebP) in automatico
+media_libraries:
+  default:
+    config:
+      max_file_size: 25000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 82
+          width: 2000
+          height: 2000
+
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: notizie
+    label: Notizie
+    label_singular: notizia
+    description: Articoli e aggiornamenti. Compaiono in home page e nella pagina Notizie.
+    folder: src/notizie
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Foto principale, name: image, widget: image, required: false }
+      - { label: Descrizione della foto, name: image_alt, widget: string, required: false, hint: "Breve descrizione, utile a chi non vede l’immagine (es. «Il presidente durante l’assemblea»)" }
+      - { label: Sommario, name: excerpt, widget: text, required: false, hint: "Una o due frasi: compaiono nell’anteprima e su Facebook." }
+      - { label: Testo, name: body, widget: markdown }
+      - { label: Video YouTube (facoltativo), name: video, widget: string, required: false, hint: "Incolla il link del video su YouTube (es. https://www.youtube.com/watch?v=…): comparirà in fondo al testo." }
+      - { label: Altre foto, name: galleria, widget: image, multiple: true, required: false, hint: "Facoltativo: puoi selezionarne più di una insieme." }
+
+  - name: comunicati
+    label: Comunicati stampa
+    label_singular: comunicato
+    description: Carica il PDF o l’immagine del comunicato; il testo è facoltativo.
+    folder: src/comunicati
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: PDF del comunicato, name: file, widget: file, required: false, hint: "Il file che i visitatori scaricano. Si consiglia il PDF." }
+      - { label: Immagine di anteprima, name: image, widget: image, required: false, hint: "L’immagine mostrata nell’elenco e nella pagina del comunicato (ad esempio la prima pagina del PDF salvata come JPG)." }
+      - { label: Testo, name: body, widget: markdown, required: false }
+
+  - name: video
+    label: Videogallery
+    label_singular: video
+    folder: src/video
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('DD/MM/YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Indirizzo del video su YouTube, name: youtube, widget: string, hint: "Copia e incolla il link del video, es. https://www.youtube.com/watch?v=…" }
+
+  - name: documenti
+    label: Documenti
+    label_singular: documento
+    description: Regolamenti, moduli e altri file da scaricare.
+    folder: src/documenti
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{categoria}} — {{title}}"
+    sortable_fields:
+      fields: [date, title, categoria]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - label: Sezione
+        name: categoria
+        widget: select
+        options: ["Associazione", "Convenzione Antiracket", "Patto Antiracket", "Legislazione", "Pubblicazioni", "Osservatorio Antiusura", "Relazioni Comitato Solidarietà"]
+        hint: "Il documento compare in fondo alla pagina scelta («Associazione» è la pagina Chi siamo)."
+      - { label: File, name: file, widget: file }
+      - { label: Mostra la data accanto al titolo, name: mostra_data, widget: boolean, default: false, required: false }
+
+  - name: pagine
+    label: Pagine
+    label_singular: pagina
+    description: Le pagine fisse del sito.
+    files:
+      - label: Chi siamo
+        name: chi_siamo
+        file: src/pagine/chi-siamo.md
+        fields: &campiPagina
+          - { label: Titolo, name: title, widget: string }
+          - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
+          - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Immagine in alto, name: image, widget: image, required: false }
+          - { label: Descrizione dell’immagine, name: image_alt, widget: string, required: false }
+          - { label: Testo, name: body, widget: markdown }
+          - { label: Immagini in fondo alla pagina, name: galleria, widget: image, multiple: true, required: false }
+      - { label: Convenzione Antiracket, name: convenzione, file: src/pagine/convenzioniantiracket.md, fields: *campiPagina }
+      - { label: Patto Antiracket, name: patto, file: src/pagine/patto-antiracket.md, fields: *campiPagina }
+      - { label: Documentazione, name: documentazione, file: src/pagine/documentazione.md, fields: *campiPagina }
+      - { label: Legislazione, name: legislazione, file: src/pagine/legislazione.md, fields: *campiPagina }
+      - { label: Pubblicazioni, name: pubblicazioni, file: src/pagine/pubblicazioni.md, fields: *campiPagina }
+      - { label: Osservatorio Antiusura, name: osservatorio, file: src/pagine/osservatorio-antiusura.md, fields: *campiPagina }
+      - { label: Relazioni Comitato Solidarietà, name: relazioni, file: src/pagine/relazioni-annuali-comitato-solidarieta.md, fields: *campiPagina }
+      - { label: Centro Studi Temi, name: centro_studi, file: src/pagine/centro-studi-temi.md, fields: *campiPagina }
+      - { label: P.O.R. Campania, name: por, file: src/pagine/por-campania.md, fields: *campiPagina }
+      - { label: Legge 124/2017, name: legge124, file: src/pagine/legge-n-124.md, fields: *campiPagina }
+
+  - name: impostazioni
+    label: Impostazioni
+    label_singular: impostazioni
+    editor: { preview: false }
+    files:
+      - label: Home page
+        name: home
+        file: src/_data/home.json
+        fields:
+          - { label: Occhiello (testo rosso in alto), name: occhiello, widget: string }
+          - { label: Titolo grande, name: titolo, widget: text, hint: "Vai a capo dove vuoi che il titolo cambi riga." }
+          - { label: Testo di presentazione, name: testo, widget: text }
+          - label: Dati in breve (fascia blu)
+            name: dati
+            widget: list
+            summary: "{{valore}}"
+            fields:
+              - { label: Valore, name: valore, widget: string }
+              - { label: Testo, name: testo, widget: string }
+          - label: Cosa facciamo
+            name: attivita
+            widget: list
+            summary: "{{titolo}}"
+            fields:
+              - { label: Titolo, name: titolo, widget: string }
+              - { label: Testo, name: testo, widget: text }
+          - label: Sedi
+            name: sedi
+            widget: list
+            summary: "{{nome}}"
+            fields:
+              - { label: Tipo (es. Sede operativa), name: tipo, widget: string }
+              - { label: Nome, name: nome, widget: string }
+              - { label: Indirizzo, name: indirizzo, widget: string }
+              - { label: Presso, name: presso, widget: string, required: false }
+              - { label: Telefono ed email, name: contatti, widget: string, required: false }
+      - label: Dati dell’associazione e contatti
+        name: sito
+        file: src/_data/site.json
+        fields:
+          - { label: Nome breve, name: nome, widget: string }
+          - { label: Nome completo, name: nome_completo, widget: string }
+          - { label: Descrizione per Google, name: descrizione, widget: text }
+          - { label: Numero verde, name: numero_verde, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Iscrizioni ai registri, name: iscrizioni, widget: text }
+          - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }
+          - { label: Profilo Instagram (indirizzo), name: instagram, widget: string, required: false }
+          - { label: Canale YouTube (indirizzo), name: youtube, widget: string, required: false }
+          - { label: Indirizzo ufficiale del sito, name: url, widget: string, hint: "Es. https://www.sosimpresacampania.it – senza barra finale. Serve a Google e alla mappa del sito." }
+          - { label: Codice fiscale, name: codice_fiscale, widget: string }
+          - { label: Sede, name: sede, widget: string, hint: "Compare nella privacy policy e nella cookie policy." }
+          - { label: ID Google Tag Manager, name: gtm_id, widget: string, required: false, hint: "Es. GTM-XXXXXXX. Lascia vuoto per disattivare Tag Manager." }
+          - { label: ID Pixel di Meta, name: meta_pixel_id, widget: string, required: false, hint: "Solo numeri. Lascia vuoto per disattivare il Pixel." }
+          - label: Modalità di prova
+            name: modalita_prova
+            widget: boolean
+            hint: "Finché è attiva, il sito mostra la fascia «Versione di prova» e resta nascosto a Google. Disattivala quando il sito diventa quello ufficiale."

@@ -1,0 +1,121 @@
+---
+layout: layouts/base.njk
+---
+{%- import "schede.njk" as s -%}
+<section class="apertura">
+  <div class="apertura-testo">
+    <p class="occhiello">{{ home.occhiello }}</p>
+    <h1>{{ home.titolo }}</h1>
+    <p class="intro">{{ home.testo }}</p>
+    <div class="pulsanti">
+      <a class="pulsante rosso" href="tel:{{ site.numero_verde | replace(' ', '') }}">Chiama l’{{ site.numero_verde }}</a>
+      <a class="pulsante contorno" href="/convenzioniantiracket/">Aderisci alla Convenzione</a>
+    </div>
+  </div>
+  <figure class="apertura-foto">
+    <img src="/uploads/notizie/campagna-adesione-convenzione-antiracket.webp" alt="Un commerciante espone il cartello Antiracket nel suo negozio insieme a un rappresentante dell’associazione" width="1600" height="981">
+  </figure>
+</section>
+
+<section class="dati" aria-label="L’associazione in breve">
+  <div class="contenitore">
+    {%- for d in home.dati %}
+    <div><strong>{{ d.valore }}</strong><span>{{ d.testo }}</span></div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="sezione" aria-labelledby="cosa">
+  <div class="contenitore colonne-cosa">
+    <div class="cosa-testa">
+      <h2 id="cosa">Cosa facciamo</h2>
+      <p>Tutti i nostri servizi di accompagnamento sono gratuiti e riservati.</p>
+      <a class="freccia" href="/chi-siamo/">Chi siamo →</a>
+    </div>
+    <ol class="elenco-cosa">
+      {%- for a in home.attivita %}
+      <li><h3>{{ a.titolo }}</h3><p>{{ a.testo }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+{%- if collections.notizie.length %}
+{%- set prima = collections.notizie[0] %}
+<section class="sezione con-filo" aria-labelledby="notizie">
+  <div class="contenitore">
+    <div class="sezione-testa">
+      <h2 id="notizie">Notizie</h2>
+      <a class="freccia" href="/notizie/">Tutte le notizie →</a>
+    </div>
+    <div class="giornale">
+      <a class="apertura-notizia" href="{{ prima.url }}">
+        <img src="{{ prima.data.image }}" alt="{{ prima.data.image_alt or '' }}" loading="lazy" decoding="async">
+        <time datetime="{{ prima.date | dataIso }}">{{ prima.date | dataIt }}</time>
+        <span class="titolo">{{ prima.data.title }}</span>
+      </a>
+      <ul class="altre-notizie">
+        {%- for n in collections.notizie | primi(4) %}{% if not loop.first %}
+        <li><a href="{{ n.url }}">
+          <img src="{{ n.data.image }}" alt="" loading="lazy" decoding="async">
+          <span><time datetime="{{ n.date | dataIso }}">{{ n.date | dataIt }}</time><b>{{ n.data.title }}</b></span>
+        </a></li>
+        {%- endif %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if collections.comunicati.length %}
+<section class="sezione con-filo" aria-labelledby="comunicati">
+  <div class="contenitore">
+    <div class="sezione-testa">
+      <h2 id="comunicati">Ultimi comunicati stampa</h2>
+      <a class="freccia" href="/comunicati-stampa/">Tutti i comunicati →</a>
+    </div>
+    <div class="griglia stretta">
+      {%- for c in collections.comunicati | primi(4) %}{{ s.comunicato(c) }}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="adesioni" aria-label="Convenzione e Patto Antiracket">
+  <a class="adesione blu" href="/convenzioniantiracket/">
+    <small>Per i commercianti</small>
+    <strong>Convenzione Antiracket</strong>
+    <span>Un’iniziativa gratuita per prevenire racket e usura e sostenere chi è vittima di estorsioni o ricatti.</span>
+    <em>Scopri come aderire →</em>
+  </a>
+  <a class="adesione rossa" href="/patto-antiracket/">
+    <small>Per le imprese</small>
+    <strong>Patto Antiracket</strong>
+    <span>Adesione libera e senza costi: l’impresa si impegna a denunciare, l’associazione offre informazione, accompagnamento e assistenza.</span>
+    <em>Scopri come aderire →</em>
+  </a>
+</section>
+
+<section class="sezione" aria-labelledby="pubblicazioni">
+  <div class="contenitore">
+    <div class="sezione-testa">
+      <h2 id="pubblicazioni">Pubblicazioni</h2>
+      <a class="freccia" href="/pubblicazioni/">Tutte le pubblicazioni →</a>
+    </div>
+    <div class="copertine">
+      <a href="/wp-content/uploads/2026/09/Speciale-Libero-Grassi-35-anni-dopo.pdf" target="_blank" rel="noopener"><img src="/wp-content/uploads/2026/09/Numero-Speciale-Libero-Grassi-scaled.jpg" alt="" loading="lazy"><span>Speciale: Libero Grassi, 35 anni dopo</span></a>
+      <a href="/wp-content/uploads/2026/04/EXE_Fumetto_Mauro-3mb_compressed.pdf" target="_blank" rel="noopener"><img src="/wp-content/uploads/2026/04/Locandina-fumetto.jpeg" alt="" loading="lazy"><span>Fumetto Antiracket: La scelta di Mauro</span></a>
+      <a href="/wp-content/uploads/2025/10/SosImpresa_Pizzino_Trentennale.pdf" target="_blank" rel="noopener"><img src="/wp-content/uploads/2025/12/SosImpresa_Pizzino_Trentennale_pages-to-jpg-0002-225x300.jpg" alt="" loading="lazy"><span>Pizzino Trentennale SOS Impresa</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sezione con-filo" aria-labelledby="sedi">
+  <div class="contenitore">
+    <div class="sezione-testa">
+      <h2 id="sedi">Dove siamo</h2>
+      <a class="freccia" href="/contatti/">Contatti →</a>
+    </div>
+    {% include "sedi.njk" %}
+  </div>
+</section>

@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+---
+{%- import "schede.njk" as s -%}
+<article class="articolo">
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › <a href="/notizie/">Notizie</a></nav>
+  <time class="scheda-data" style="font-size:15px" datetime="{{ page.date | dataIso }}">{{ page.date | dataIt }}</time>
+  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
+  {%- if excerpt %}<p class="sommario">{{ excerpt }}</p>{% endif %}
+  {%- if image %}
+  <figure>
+    <img src="{{ image }}" alt="{{ image_alt or '' }}">
+    {%- if image_alt %}<figcaption>{{ image_alt }}</figcaption>{% endif %}
+  </figure>
+  {%- endif %}
+  <div class="testo">{{ content | safe }}</div>
+  {%- set vid = video | youtubeId %}
+  {%- if vid %}
+  <div class="video-box" style="border-radius:8px">
+    <button type="button" data-youtube="{{ vid }}" aria-label="Guarda il video: {{ title }}">
+      <img src="https://i.ytimg.com/vi/{{ vid }}/hqdefault.jpg" alt="" loading="lazy">
+      <span class="play"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#FFFFFF"/></svg></span>
+    </button>
+  </div>
+  {%- endif %}
+  {%- if galleria and galleria.length %}
+  <div class="foto" data-galleria>
+    {%- for f in galleria %}
+    <button type="button" data-src="{{ f }}" aria-label="Ingrandisci foto {{ loop.index }}"><img src="{{ f }}" alt="" loading="lazy"></button>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+  <div class="condividi">
+    <strong>Condividi:</strong>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | url | urlencode }}" data-condividi="facebook" target="_blank" rel="noopener">Facebook</a>
+    <a href="https://wa.me/?text={{ title | urlencode }}" data-condividi="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="mailto:?subject={{ title | urlencode }}" data-condividi="email">Email</a>
+  </div>
+</article>
+
+{%- set altre = [] -%}
+{%- for n in collections.notizie -%}{%- if n.url != page.url and altre.length < 3 -%}{%- set altre = (altre.push(n), altre) -%}{%- endif -%}{%- endfor -%}
+{%- if altre.length %}
+<section class="sezione bianca" aria-labelledby="dopo">
+  <div class="contenitore">
+    <h2 id="dopo" style="margin-bottom:24px">Cosa leggere dopo</h2>
+    <div class="griglia">{% for n in altre %}{{ s.notizia(n) }}{% endfor %}</div>
+  </div>
+</section>
+{%- endif %}
