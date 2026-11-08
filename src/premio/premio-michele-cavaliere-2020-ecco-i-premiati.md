@@ -1,9 +1,9 @@
 ---
-title: "2ª edizione del Premio “Michele Cavaliere”: premiati e motivazioni"
+title: 'Celebrata la 2ª edizione del Premio “Michele Cavaliere”: nomi e motivazioni dei premiati'
+edizione: 2ª edizione
 date: 2020-07-22
-edizione: "2ª edizione"
 image: /wp-content/uploads/2020/07/2020.jpeg
-excerpt: "Lunedì 6 luglio 2020 a Castellammare di Stabia si è tenuta la seconda edizione del Premio."
+excerpt: Lunedì 6 luglio 2020 a Castellammare di Stabia si è tenuta la seconda edizione del Premio.
 ---
 
 Si è tenuta lunedì 6 luglio 2020 a Castellammare di Stabia la seconda edizione del Premio “Michele Cavaliere”, imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996.
