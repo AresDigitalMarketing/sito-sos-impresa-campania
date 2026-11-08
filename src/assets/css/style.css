@@ -215,6 +215,7 @@ a.scheda:hover .scheda-titolo { color: var(--blu); }
 .briciole { font-size: 15px; margin-bottom: 18px; display: flex; flex-wrap: wrap; gap: 6px; color: var(--testo-3); }
 
 .testo { max-width: 760px; font-size: 19px; line-height: 1.7; }
+.testo.larga { max-width: none; }
 .testo h2 { font-size: 30px; margin: 40px 0 12px; }
 .testo h3 { font-size: 23px; margin: 32px 0 10px; color: var(--blu); }
 .testo p, .testo ul, .testo ol { margin: 0 0 18px; }

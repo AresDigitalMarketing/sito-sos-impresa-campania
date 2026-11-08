@@ -10,7 +10,7 @@ layout: layouts/base.njk
 <div class="contenitore" style="padding-bottom:72px">
   {%- if logo %}<img class="logo-progetto" src="{{ logo }}" alt="Logo {{ title }}">{% endif %}
   {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
-  <div class="testo">{{ content | safe }}</div>
+  <div class="testo{% if elenco_premio %} larga{% endif %}">{{ content | safe }}</div>
   {%- if elenco_premio %}
   <h2 style="font-size:32px;margin:48px 0 20px">Le edizioni del Premio</h2>
   <div class="griglia">
