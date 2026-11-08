@@ -6,7 +6,7 @@ image: /wp-content/uploads/2022/11/2022.jpg
 excerpt: La speciale commissione del Premio si è riunita per l’edizione 2022 e ha attribuito i riconoscimenti.
 ---
 
-Si è riunita, nei giorni scorsi, la speciale commissione del Premio “Michele Cavaliere”, presieduta da Raffaele Cavaliere, per l’edizione 2022 del Premio e per valutare le candidature pervenute alle quali attribuire il riconoscimento, che giunge quest’anno alla sua quarta edizione.
+Si è riunita, nei giorni scorsi, la speciale commissione del Premio “**Michele Cavaliere**”, presieduta da **Raffaele Cavaliere**, per l’edizione 2022 del Premio e per valutare le candidature pervenute alle quali attribuire il riconoscimento, che giunge quest’anno alla sua quarta edizione.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
@@ -16,7 +16,7 @@ Giornalista e saggista, fortemente impegnato politicamente a favore delle temati
 
 ### a Luigi Riello
 
-Procuratore generale di Napoli dal 2015, ha fatto sentire forte la sua voce sul degrado della società campana e, in particolare, su quella napoletana (un unicum in Italia), su cui ha richiamato l’attenzione nazionale. Attento alla diffusa devianza giovale come all’emergenza delle periferie, ha evidenziato la necessità di far procedere di pari passo la repressione a fianco di una rivoluzione culturale che spetta anche all’impegno della società civile. “Ognuno faccia la propria parte” ha sostenuto anche nei riguardi dei Don Abbondio che devono uscire dalla Chiesa, per tagliare i fili culturali che alimentano la camorra. E per i giovani, che sono il vero nucleo del problema legalità, Riello vede la necessità di lavoro e alternative, la stessa ottica di quanti nella società civile s’impegnano perché si possa avviare un reale cambiamento;
+Procuratore generale di Napoli dal 2015, ha fatto sentire forte la sua voce sul degrado della società campana e, in particolare, su quella napoletana (un unicum in Italia), su cui ha richiamato l’attenzione nazionale. Attento alla diffusa devianza giovale come all’emergenza delle periferie, ha evidenziato la necessità di far procedere di pari passo la repressione a fianco di una rivoluzione culturale che spetta anche all’impegno della società civile. “Ognuno faccia la propria parte” ha sostenuto, anche nei riguardi dei "Don Abbondio" che devono uscire dalla Chiesa, per tagliare quei fili culturali che ancora alimentano la camorra. Per i giovani, che sono il vero nucleo del problema legalità, Riello vede la necessità di lavoro e alternative, la stessa ottica di quanti nella società civile s’impegnano perché si possa avviare un reale cambiamento;
 
 ### a Rosamarina Sardella
 
@@ -34,6 +34,6 @@ Uomo, cittadino e padre, che il 20 luglio 1998, si vedeva sottrarre, per mano de
 
 Sociologo, laureato in economia all’Università “Bocconi” di Milano (dove attualmente insegna), direttore della Rivista di Studi e Ricerche sulla criminalità organizzata, docente di Sociologia della criminalità organizzata a Milano, per l’infaticabile attività di studio, originale analisi e magistrale capacità di divulgazione dei fenomeni mafiosi in Italia e della loro infiltrazione nei tessuti economici, civili e culturali del nostro Paese. Presidente onorario di Libera e animatore di moltissime iniziative culturali, artistiche e di intenso impegno civile, fondatore di corsi di specializzazione, laboratori, centri di ricerca e della prima scuola accademica sulla criminalità organizzata. Secondo il comitato scientifico del Premio, la cultura è certamente tra le armi più efficace contro la criminalità organizzata nel nostro Paese e chi produce cultura di altissimo livello, soprattutto quella antimafia, è considerabile a tutti gli effetti un altissimo ufficiale dell’esercito della Legalità e della Giustizia. Il professor Dalla Chiesa, pertanto, rappresenta senza dubbio uno degli altissimi ufficiali di più alto rango di questo esercito.
 
-Una menzione speciale è stata assegnata al dott. Gennaro Gambardella per il suo speciale impegno nell’ambito del progetto contro l’evasione scolastica, promosso e realizzato con successo dalla C.P.S. (Comunità Promozione e Sviluppo) di Castellammare di Stabia e finanziato dalla Regione Campania.
+Una menzione speciale è stata assegnata al dott. **Gennaro Gambardella** per il suo speciale impegno nell’ambito del progetto contro l’evasione scolastica, promosso e realizzato con successo dalla C.P.S. (Comunità Promozione e Sviluppo) di Castellammare di Stabia e finanziato dalla Regione Campania.
 
-La cerimonia di assegnazione si svolgerà il giorno 18 novembre alle ore 10.30 presso il Circolo intercomunale della Legalità di Castellammare di Stabia, in Piazza Principe Umberto I n. 1 e sarà conclusa dal Prefetto Maria Grazia Nicolò, Commissario Nazionale di Governo per il coordinamento delle iniziative Antiracket e Antiusura.
+La cerimonia di assegnazione si svolgerà il giorno 18 novembre alle ore 10.30 presso il Circolo intercomunale della Legalità di Castellammare di Stabia, in Piazza Principe Umberto I n. 1 e sarà conclusa dal Prefetto **Maria Grazia Nicolò**, Commissario Nazionale di Governo per il coordinamento delle iniziative Antiracket e Antiusura.
