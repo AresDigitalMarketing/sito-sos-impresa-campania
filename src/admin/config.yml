@@ -102,6 +102,27 @@ collections:
       - { label: Fonte (es. Canale 21), name: fonte, widget: string, required: false }
       - { label: Durata (es. 3:36), name: durata, widget: string, required: false }
 
+  - name: premio
+    label: Premio “Michele Cavaliere”
+    label_singular: edizione
+    description: Le edizioni del Premio. Compaiono nella pagina del Premio.
+    folder: src/premio
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{date | date('YYYY')}} — {{title}}"
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
+    fields:
+      - { label: Titolo, name: title, widget: string }
+      - { label: Edizione (es. 5ª edizione), name: edizione, widget: string }
+      - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
+      - { label: Foto principale, name: image, widget: image, required: false }
+      - { label: Sommario, name: excerpt, widget: text, required: false }
+      - { label: Testo, name: body, widget: markdown }
+
   - name: documenti
     label: Documenti
     label_singular: documento
@@ -138,10 +159,12 @@ collections:
           - { label: Titolo, name: title, widget: string }
           - { label: "Titolo su più righe (facoltativo)", name: titolo_righe, widget: text, required: false, hint: "Solo se vuoi andare a capo nel titolo grande della pagina: riscrivi il titolo andando a capo dove preferisci. Negli elenchi e nelle anteprime resta il titolo normale." }
           - { label: Sottotitolo, name: sottotitolo, widget: text, required: false }
+          - { label: Logo del progetto, name: logo, widget: image, required: false }
           - { label: Immagine in alto, name: image, widget: image, required: false }
           - { label: Descrizione dell’immagine, name: image_alt, widget: string, required: false }
           - { label: Testo, name: body, widget: markdown }
           - { label: Immagini in fondo alla pagina, name: galleria, widget: image, multiple: true, required: false }
+          - { label: Loghi dei partner, name: partner, widget: image, multiple: true, required: false }
       - { label: Convenzione Antiracket, name: convenzione, file: src/pagine/convenzioniantiracket.md, fields: *campiPagina }
       - { label: Patto Antiracket, name: patto, file: src/pagine/patto-antiracket.md, fields: *campiPagina }
       - { label: Documentazione, name: documentazione, file: src/pagine/documentazione.md, fields: *campiPagina }
@@ -151,6 +174,11 @@ collections:
       - { label: Relazioni Comitato Solidarietà, name: relazioni, file: src/pagine/relazioni-annuali-comitato-solidarieta.md, fields: *campiPagina }
       - { label: Centro Studi Temi, name: centro_studi, file: src/pagine/centro-studi-temi.md, fields: *campiPagina }
       - { label: P.O.R. Campania, name: por, file: src/pagine/por-campania.md, fields: *campiPagina }
+      - { label: Premio “Michele Cavaliere”, name: premio_pagina, file: src/pagine/premio-michele-cavaliere.md, fields: *campiPagina }
+      - { label: Discover, name: discover, file: src/pagine/discover.md, fields: *campiPagina }
+      - { label: Percorsi di sostenibilità, name: percorsi, file: src/pagine/percorsi-di-sostenibilita.md, fields: *campiPagina }
+      - { label: Economia Circolare e Digitalizzazione, name: economia, file: src/pagine/economia-circolare-e-digitalizzazione.md, fields: *campiPagina }
+      - { label: Progettare in Italia, name: progettare, file: src/pagine/progettare-in-italia.md, fields: *campiPagina }
       - { label: Legge 124/2017, name: legge124, file: src/pagine/legge-n-124.md, fields: *campiPagina }
 
   - name: impostazioni

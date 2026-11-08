@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 {%- import "schede.njk" as s -%}
 <article class="articolo">
-  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › <a href="/notizie/">Notizie</a></nav>
+  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {% if edizione %}<a href="/premio-michele-cavaliere/">Premio “Michele Cavaliere”</a>{% else %}<a href="/notizie/">Notizie</a>{% endif %}</nav>
   <time class="scheda-data" style="font-size:15px" datetime="{{ page.date | dataIso }}">{{ page.date | dataIt }}</time>
   <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
   {%- if excerpt %}<p class="sommario">{{ excerpt }}</p>{% endif %}

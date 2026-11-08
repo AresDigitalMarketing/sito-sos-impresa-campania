@@ -31,6 +31,7 @@ export default function (eleventyConfig) {
   const raccolta = (cartella) => (api) =>
     api.getFilteredByGlob(`src/${cartella}/*.md`).sort(perData);
   eleventyConfig.addCollection("notizie", raccolta("notizie"));
+  eleventyConfig.addCollection("premio", raccolta("premio"));
   eleventyConfig.addCollection("comunicati", raccolta("comunicati"));
   eleventyConfig.addCollection("video", raccolta("video"));
   eleventyConfig.addCollection("documenti", raccolta("documenti"));

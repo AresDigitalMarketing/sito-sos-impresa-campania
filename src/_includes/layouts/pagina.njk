@@ -8,8 +8,30 @@ layout: layouts/base.njk
   {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">
+  {%- if logo %}<img class="logo-progetto" src="{{ logo }}" alt="Logo {{ title }}">{% endif %}
   {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
   <div class="testo">{{ content | safe }}</div>
+  {%- if elenco_premio %}
+  <h2 style="font-size:32px;margin:48px 0 20px">Le edizioni del Premio</h2>
+  <div class="griglia">
+    {%- for n in collections.premio %}
+    <a class="scheda" href="{{ n.url }}">
+      <img class="scheda-img" src="{{ n.data.image }}" alt="" loading="lazy" decoding="async">
+      <div class="scheda-corpo">
+        <span class="scheda-data">{{ n.data.edizione }} · {{ n.date.getFullYear() }}</span>
+        <span class="scheda-titolo">{{ n.data.title }}</span>
+        {%- if n.data.excerpt %}<p class="scheda-testo">{{ n.data.excerpt }}</p>{% endif %}
+      </div>
+    </a>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+  {%- if partner and partner.length %}
+  <h2 style="font-size:32px;margin:48px 0 20px">Partnerships</h2>
+  <ul class="partner">
+    {%- for f in partner %}<li><img src="{{ f }}" alt="Logo partner {{ loop.index }}" loading="lazy" decoding="async"></li>{% endfor %}
+  </ul>
+  {%- endif %}
   {%- if documenti_categoria %}
     {%- set elenco = collections.documenti | perCategoria(documenti_categoria) %}
     {%- if elenco.length %}
