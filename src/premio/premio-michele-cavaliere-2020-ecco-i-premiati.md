@@ -3,7 +3,7 @@ title: 'Celebrata la 2ª edizione del Premio “Michele Cavaliere”: nomi e mot
 edizione: 2ª edizione
 date: 2020-07-22
 image: /wp-content/uploads/2020/07/2020.jpeg
-excerpt: Lunedì 6 luglio 2020 a Castellammare di Stabia si è tenuta la seconda edizione del Premio.
+excerpt: Lunedì 6 luglio 2020 si è tenuta la seconda edizione del Premio, nella splendida cornice di Castellammare di Stabia.
 ---
 
 Si è tenuta lunedì 6 luglio 2020 a Castellammare di Stabia la seconda edizione del Premio “**Michele Cavaliere**”, imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996.
