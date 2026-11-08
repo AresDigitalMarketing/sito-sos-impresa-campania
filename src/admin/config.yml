@@ -193,13 +193,6 @@ collections:
           - { label: Occhiello (testo rosso in alto), name: occhiello, widget: string }
           - { label: Titolo grande, name: titolo, widget: text, hint: "Vai a capo dove vuoi che il titolo cambi riga." }
           - { label: Testo di presentazione, name: testo, widget: text }
-          - label: Dati in breve (fascia blu)
-            name: dati
-            widget: list
-            summary: "{{valore}}"
-            fields:
-              - { label: Valore, name: valore, widget: string }
-              - { label: Testo, name: testo, widget: string }
           - label: Cosa facciamo
             name: attivita
             widget: list

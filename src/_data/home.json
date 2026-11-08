@@ -2,25 +2,70 @@
   "occhiello": "Associazione antiracket e antiusura della Campania",
   "titolo": "Possiamo aiutarti a liberarti dal racket e dall’usura, in sicurezza.",
   "testo": "Non aspettare ancora. Ti accompagniamo alla denuncia e all’accesso al Fondo di Solidarietà, in modo del tutto gratuito.",
-  "dati": [
-    { "valore": "n. 20", "testo": "Elenco antiracket della Prefettura di Napoli" },
-    { "valore": "n. 395", "testo": "Registro regionale Aps della Campania" },
-    { "valore": "6 sedi", "testo": "tra Napoli, Castellammare, Avellino e Caserta" },
-    { "valore": "0 €", "testo": "il costo per chi chiede aiuto" }
-  ],
   "attivita": [
-    { "titolo": "Accompagnamento alla denuncia", "testo": "Siamo al fianco di chi subisce estorsioni o usura e sceglie di denunciare." },
-    { "titolo": "Parte civile nei processi", "testo": "Ci costituiamo parte civile nei procedimenti penali per estorsione, usura, corruzione e associazione mafiosa." },
-    { "titolo": "Accesso al Fondo di Solidarietà", "testo": "Accompagniamo gratuitamente i titolari di attività economiche e i loro familiari nell’accesso al Fondo presso il Ministero dell’Interno." },
-    { "titolo": "Prevenzione dell’usura", "testo": "Prevenzione, tutela, assistenza e informazione per chi è a rischio usura o sovraindebitato." },
-    { "titolo": "Scuole e cultura della legalità", "testo": "Iniziative nelle scuole e nelle università, studio e ricerca sui fenomeni estorsivi e usurai." }
+    {
+      "titolo": "Accompagnamento alla denuncia",
+      "testo": "Siamo al fianco di chi subisce estorsioni o usura e sceglie di denunciare."
+    },
+    {
+      "titolo": "Parte civile nei processi",
+      "testo": "Ci costituiamo parte civile nei procedimenti penali per estorsione, usura, corruzione e associazione mafiosa."
+    },
+    {
+      "titolo": "Accesso al Fondo di Solidarietà",
+      "testo": "Accompagniamo gratuitamente i titolari di attività economiche e i loro familiari nell’accesso al Fondo presso il Ministero dell’Interno."
+    },
+    {
+      "titolo": "Prevenzione dell’usura",
+      "testo": "Prevenzione, tutela, assistenza e informazione per chi è a rischio usura o sovraindebitato."
+    },
+    {
+      "titolo": "Scuole e cultura della legalità",
+      "testo": "Iniziative nelle scuole e nelle università, studio e ricerca sui fenomeni estorsivi e usurai."
+    }
   ],
   "sedi": [
-    { "tipo": "Sede regionale", "nome": "Napoli", "indirizzo": "Via Toledo, 148 – 80128 Napoli", "presso": "c/o Confesercenti Regionale della Campania", "contatti": "" },
-    { "tipo": "Sede operativa", "nome": "Napoli – Pianura", "indirizzo": "Via vicinale Trencia, 62 – 80126 Napoli", "presso": "c/o Associazione dei Commercianti di Pianura", "contatti": "" },
-    { "tipo": "Sede operativa", "nome": "Napoli – Ponticelli", "indirizzo": "Via Cupa San Pietro, 40/bis – 80147 Napoli", "presso": "c/o Associazione Report", "contatti": "" },
-    { "tipo": "Sede operativa", "nome": "Castellammare di Stabia", "indirizzo": "Piazza Principe Umberto I nr. 1 – 80053 Castellammare di Stabia (NA)", "presso": "c/o Circolo della Legalità “Michele Cavaliere”", "contatti": "" },
-    { "tipo": "Sede operativa", "nome": "Avellino", "indirizzo": "Via Nazionale, 121 – 83013 Mercogliano (AV)", "presso": "", "contatti": "Tel. 320 012 7029 · sosimpresa.av@mail.com" },
-    { "tipo": "Sede operativa", "nome": "Caserta", "indirizzo": "Via Paolo Riverso, 160 – 81031 Aversa (CE)", "presso": "Ambulatorio Antiracket e Antiusura Terra di Lavoro APS", "contatti": "sosimpresacaserta@legalmail.it" }
+    {
+      "tipo": "Sede regionale",
+      "nome": "Napoli",
+      "indirizzo": "Via Toledo, 148 – 80128 Napoli",
+      "presso": "c/o Confesercenti Regionale della Campania",
+      "contatti": ""
+    },
+    {
+      "tipo": "Sede operativa",
+      "nome": "Napoli – Pianura",
+      "indirizzo": "Via vicinale Trencia, 62 – 80126 Napoli",
+      "presso": "c/o Associazione dei Commercianti di Pianura",
+      "contatti": ""
+    },
+    {
+      "tipo": "Sede operativa",
+      "nome": "Napoli – Ponticelli",
+      "indirizzo": "Via Cupa San Pietro, 40/bis – 80147 Napoli",
+      "presso": "c/o Associazione Report",
+      "contatti": ""
+    },
+    {
+      "tipo": "Sede operativa",
+      "nome": "Castellammare di Stabia",
+      "indirizzo": "Piazza Principe Umberto I nr. 1 – 80053 Castellammare di Stabia (NA)",
+      "presso": "c/o Circolo della Legalità “Michele Cavaliere”",
+      "contatti": ""
+    },
+    {
+      "tipo": "Sede operativa",
+      "nome": "Avellino",
+      "indirizzo": "Via Nazionale, 121 – 83013 Mercogliano (AV)",
+      "presso": "",
+      "contatti": "Tel. 320 012 7029 · sosimpresa.av@mail.com"
+    },
+    {
+      "tipo": "Sede operativa",
+      "nome": "Caserta",
+      "indirizzo": "Via Paolo Riverso, 160 – 81031 Aversa (CE)",
+      "presso": "Ambulatorio Antiracket e Antiusura Terra di Lavoro APS",
+      "contatti": "sosimpresacaserta@legalmail.it"
+    }
   ]
 }

@@ -103,18 +103,6 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
   .apertura-foto { aspect-ratio: 3 / 2; border-left: 0; border-top: 8px solid var(--rosso); }
 }
 
-/* Dati in breve */
-.dati { background: var(--blu); color: var(--bianco); }
-.dati .contenitore { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); padding-block: 8px; }
-.dati .contenitore > div { padding: 22px 24px; border-left: 1px solid rgba(255,255,255,.28); }
-.dati .contenitore > div:first-child { border-left: 0; padding-left: 0; }
-.dati strong { display: block; font-size: 36px; font-weight: 800; font-stretch: 78%; line-height: 1.1; }
-.dati span { font-size: 15.5px; line-height: 1.35; display: block; margin-top: 2px; }
-@media (max-width: 760px) {
-  .dati .contenitore { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .dati .contenitore > div { border-left: 0; padding: 14px 8px 14px 0; }
-}
-
 /* Sezioni */
 .sezione { padding-block: 76px; }
 .sezione.con-filo { padding-top: 0; }
