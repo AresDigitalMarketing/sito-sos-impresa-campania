@@ -2,15 +2,17 @@
 layout: layouts/base.njk
 ---
 {%- import "schede.njk" as s -%}
-<div class="contenitore pagina-testa">
-  <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {{ title }}</nav>
-  <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
-  {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
+<div class="contenitore pagina-testa{% if logo %} con-logo{% endif %}">
+  <div>
+    <nav class="briciole" aria-label="Percorso"><a href="/">Home</a> › {{ title }}</nav>
+    <h1 style="white-space: pre-line">{{ titolo_righe or title }}</h1>
+    {%- if sottotitolo %}<p>{{ sottotitolo }}</p>{% endif %}
+  </div>
+  {%- if logo %}<img class="logo-progetto" src="{{ logo }}" alt="Logo {{ title }}">{% endif %}
 </div>
 <div class="contenitore" style="padding-bottom:72px">
-  {%- if logo %}<img class="logo-progetto" src="{{ logo }}" alt="Logo {{ title }}">{% endif %}
   {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
-  <div class="testo{% if elenco_premio %} larga{% endif %}">{{ content | safe }}</div>
+  <div class="testo larga">{{ content | safe }}</div>
   {%- if elenco_premio %}
   <h2 style="font-size:32px;margin:48px 0 20px">Le edizioni del Premio</h2>
   <div class="griglia">
