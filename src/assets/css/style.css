@@ -61,9 +61,6 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 .tendina:hover .tendina-voci, .tendina:focus-within .tendina-voci { display: block; }
 .tendina-voci a { display: block; padding: 10px 16px; color: var(--testo); text-decoration: none; font-weight: 500; }
 .tendina-voci a:hover { background: var(--tinta); color: var(--blu); }
-.tel-testata { background: var(--rosso-testo); color: var(--bianco); text-decoration: none; font-weight: 800; font-stretch: 80%; font-size: 21px; line-height: 1.05; padding: 8px 16px; border-radius: var(--raggio); white-space: nowrap; }
-.tel-testata small { display: block; font-size: 12px; font-weight: 600; letter-spacing: .03em; }
-.tel-testata:hover { background: var(--blu-scuro); color: var(--bianco); }
 .menu-mobile { display: none; }
 @media (min-width: 1380px) {
   .menu { font-size: 16.5px; font-stretch: 80%; }
