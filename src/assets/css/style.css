@@ -345,3 +345,24 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
 .testo h4 { font-size: 20px; margin: 28px 0 0; color: var(--blu); }
 .articolo .testo { font-family: var(--corpo); font-size: 19px; }
 .video-box .play svg path { fill: #fff; }
+
+/* Videogallery: schermo grande con elenco dei video a fianco */
+.regia { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 28px 36px; align-items: start; }
+.regia-schermo .video-box { border-radius: 0; }
+.regia-schermo h2 { font-size: clamp(26px, 3vw, 36px); margin-top: 18px; }
+.regia-info { margin: 8px 0 0; color: var(--rosso-testo); font-weight: 600; font-size: 16px; }
+.regia-lista { list-style: none; margin: 0; padding: 0; max-height: 640px; overflow-y: auto; border-top: 3px solid var(--blu); }
+.regia-lista li { border-bottom: 1px solid var(--bordo); }
+.regia-lista button { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 14px; width: 100%; min-height: 44px; padding: 12px 8px; background: none; border: 0; font: inherit; color: var(--testo); text-align: left; cursor: pointer; }
+.regia-lista button:hover { background: var(--tinta); }
+.regia-lista button[aria-current="true"] { background: var(--blu-tenue); }
+.regia-anteprima { position: relative; display: block; align-self: start; }
+.regia-anteprima img { width: 132px; aspect-ratio: 16 / 9; object-fit: cover; background: var(--bordo); }
+.regia-durata { position: absolute; right: 4px; bottom: 4px; background: rgba(6, 22, 46, .88); color: var(--bianco); font-size: 12.5px; font-weight: 600; padding: 1px 5px; border-radius: 2px; }
+.regia-testo b { display: block; font-size: 16.5px; line-height: 1.22; font-weight: 700; font-stretch: 90%; color: var(--blu); }
+.regia-testo small { display: block; margin-top: 4px; font-size: 14px; line-height: 1.3; color: var(--testo-3); }
+.regia-canale { margin: 28px 0 0; }
+@media (max-width: 900px) {
+  .regia { grid-template-columns: 1fr; }
+  .regia-lista { max-height: none; }
+}

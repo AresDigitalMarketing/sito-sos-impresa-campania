@@ -99,6 +99,8 @@ collections:
       - { label: Titolo, name: title, widget: string }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: Indirizzo del video su YouTube, name: youtube, widget: string, hint: "Copia e incolla il link del video, es. https://www.youtube.com/watch?v=…" }
+      - { label: Fonte (es. Canale 21), name: fonte, widget: string, required: false }
+      - { label: Durata (es. 3:36), name: durata, widget: string, required: false }
 
   - name: documenti
     label: Documenti

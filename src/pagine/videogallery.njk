@@ -9,26 +9,39 @@ permalink: /videogallery/
 </div>
 <div class="contenitore" style="padding-bottom:72px">
   {%- if collections.video.length %}
-  <div class="griglia">
-    {%- for v in collections.video %}
-    {%- set id = v.data.youtube | youtubeId %}
-    <div class="scheda">
-      {%- if id %}
-      <div class="video-box">
-        <button type="button" data-youtube="{{ id }}" aria-label="Guarda il video: {{ v.data.title }}">
-          <img src="https://i.ytimg.com/vi/{{ id }}/hqdefault.jpg" alt="" loading="lazy">
+  {%- set primo = collections.video[0] %}
+  {%- set primoId = primo.data.youtube | youtubeId %}
+  <div class="regia" data-regia>
+    <section class="regia-schermo" aria-label="Video selezionato">
+      <div class="video-box" data-regia-box>
+        <button type="button" data-youtube="{{ primoId }}" aria-label="Guarda il video: {{ primo.data.title }}">
+          <img src="https://i.ytimg.com/vi/{{ primoId }}/hqdefault.jpg" alt="">
           <span class="play"><svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#FFFFFF"/></svg></span>
         </button>
       </div>
-      {%- endif %}
-      <div class="scheda-corpo">
-        <time class="scheda-data" datetime="{{ v.date | dataIso }}">{{ v.date | dataIt }}</time>
-        <span class="scheda-titolo" style="font-size:20px">{{ v.data.title }}</span>
-        {%- if not id and v.data.youtube %}<a href="{{ v.data.youtube }}" target="_blank" rel="noopener">Guarda il video →</a>{% endif %}
-      </div>
-    </div>
-    {%- endfor %}
+      <h2 data-regia-titolo>{{ primo.data.title }}</h2>
+      <p class="regia-info" data-regia-info>{% if primo.data.fonte %}{{ primo.data.fonte }} · {% endif %}{{ primo.date | dataIt }}</p>
+    </section>
+    <ol class="regia-lista" aria-label="Elenco dei video">
+      {%- for v in collections.video %}
+      {%- set id = v.data.youtube | youtubeId %}
+      {%- set info = ((v.data.fonte + " · ") if v.data.fonte else "") + (v.date | dataIt) %}
+      <li>
+        <button type="button" data-regia-video="{{ id }}" data-titolo="{{ v.data.title }}" data-info="{{ info }}"{% if loop.first %} aria-current="true"{% endif %}>
+          <span class="regia-anteprima">
+            <img src="https://i.ytimg.com/vi/{{ id }}/mqdefault.jpg" alt="" loading="lazy" width="320" height="180">
+            {%- if v.data.durata %}<span class="regia-durata">{{ v.data.durata }}</span>{% endif %}
+          </span>
+          <span class="regia-testo">
+            <b>{{ v.data.title }}</b>
+            <small>{{ info }}</small>
+          </span>
+        </button>
+      </li>
+      {%- endfor %}
+    </ol>
   </div>
+  <p class="regia-canale"><a class="freccia" href="{{ site.youtube }}" target="_blank" rel="noopener">Tutti i video sul nostro canale YouTube →</a></p>
   {%- else %}
   <p class="vuoto">I video saranno pubblicati a breve.</p>
   {%- endif %}

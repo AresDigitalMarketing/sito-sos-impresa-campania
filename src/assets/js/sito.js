@@ -21,6 +21,27 @@
     });
   });
 
+  // Videogallery: la scelta dall'elenco cambia il video sullo schermo grande
+  var regia = document.querySelector("[data-regia]");
+  if (regia) {
+    var scelte = regia.querySelectorAll("[data-regia-video]");
+    var schermo = regia.querySelector("[data-regia-box]");
+    scelte.forEach(function (b) {
+      b.addEventListener("click", function () {
+        scelte.forEach(function (x) { x.removeAttribute("aria-current"); });
+        b.setAttribute("aria-current", "true");
+        regia.querySelector("[data-regia-titolo]").textContent = b.getAttribute("data-titolo");
+        regia.querySelector("[data-regia-info]").textContent = b.getAttribute("data-info");
+        var f = document.createElement("iframe");
+        f.src = "https://www.youtube-nocookie.com/embed/" + b.getAttribute("data-regia-video") + "?autoplay=1";
+        f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+        f.title = b.getAttribute("data-titolo");
+        schermo.replaceChildren(f);
+        if (window.innerWidth <= 900) schermo.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
   // Galleria fotografica a tutto schermo
   var gallerie = document.querySelectorAll("[data-galleria]");
   if (!gallerie.length || typeof HTMLDialogElement === "undefined") return;
