@@ -225,6 +225,7 @@ collections:
           - { label: Nome completo, name: nome_completo, widget: string }
           - { label: Descrizione per Google, name: descrizione, widget: text }
           - { label: Numero verde, name: numero_verde, widget: string }
+          - { label: "Numero WhatsApp", name: cellulare, widget: string, hint: "Numero di cellulare usato per WhatsApp, senza +39 (es. 331 768 2066). Lo usano i pulsanti Contattaci e la pagina Contatti." }
           - { label: Email, name: email, widget: string }
           - { label: Iscrizioni ai registri, name: iscrizioni, widget: text }
           - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }

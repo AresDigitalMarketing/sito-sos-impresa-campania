@@ -8,7 +8,7 @@ layout: layouts/base.njk
     <h1>{{ home.titolo }}</h1>
     <p class="intro">{{ home.testo }}</p>
     <div class="pulsanti">
-      <a class="pulsante rosso" href="tel:{{ site.numero_verde | replace(' ', '') }}">Chiama l’{{ site.numero_verde }}</a>
+      <a class="pulsante rosso" href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener">Contattaci</a>
       <a class="pulsante contorno" href="/convenzioniantiracket/">Aderisci alla Convenzione</a>
     </div>
   </div>

@@ -85,7 +85,7 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
         {%- endif %}
       {%- endfor %}
     </nav>
-    <a class="tel-testata" href="tel:{{ site.numero_verde | replace(' ', '') }}"><small>Numero verde</small>{{ site.numero_verde }}</a>
+    <a class="tel-testata" href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener"><small>WhatsApp</small>Contattaci</a>
     <details class="menu-mobile">
       <summary>Menu</summary>
       <nav aria-label="Menu principale (mobile)">
@@ -106,10 +106,10 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
 {{ content | safe }}
 </main>
 
-<section class="chiama" aria-label="Numero verde">
+<section class="chiama" aria-label="Contattaci">
   <div class="contenitore">
-    <p>Non aspettare ancora.<br>Chiama subito.</p>
-    <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a>
+    <p>Non aspettare ancora.<br>Scrivici su WhatsApp.</p>
+    <a href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener">Contattaci</a>
   </div>
 </section>
 
@@ -127,7 +127,7 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
     </div>
     <div class="piede-dove">
       <h2>Contatti</h2>
-      <p>Numero verde <a href="tel:{{ site.numero_verde | replace(' ', '') }}">{{ site.numero_verde }}</a><br>
+      <p>WhatsApp <a href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener">{{ site.cellulare }}</a><br>
       <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
       {{ site.sede }}</p>
       {% include "social.njk" %}

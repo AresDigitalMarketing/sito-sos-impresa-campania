@@ -48,6 +48,9 @@
     } else if (h.indexOf('mailto:') === 0) {
       dl.push({ event: 'click_email', email: h.slice(7).split('?')[0] });
       window.fbq && fbq('track', 'Contact', { metodo: 'email' });
+    } else if (/^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(h) && !a.hasAttribute('data-condividi')) {
+      dl.push({ event: 'click_whatsapp' });
+      window.fbq && fbq('track', 'Contact', { metodo: 'whatsapp' });
     } else if (/\.pdf($|\?)/i.test(h)) {
       var nome = h.split('/').pop().split('?')[0];
       dl.push({ event: 'download_documento', documento: nome });
