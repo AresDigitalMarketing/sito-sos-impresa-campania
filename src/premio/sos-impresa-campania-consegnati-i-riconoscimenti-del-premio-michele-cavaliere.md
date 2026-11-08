@@ -1,5 +1,5 @@
 ---
-title: Motivazioni e premiati della 3ª edizione del Premio “Michele Cavaliere”
+title: Consegnati gli attestati della 3ª edizione del Premio “Michele Cavaliere”
 edizione: 3ª edizione
 date: 2021-07-12
 image: /wp-content/uploads/2021/07/PREMIO-MICHELE-CAVALIERE-2021.jpeg
