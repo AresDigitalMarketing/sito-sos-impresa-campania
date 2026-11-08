@@ -90,7 +90,7 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 .freccia { font-weight: 700; text-decoration: none; white-space: nowrap; }
 
 /* Apertura home: testo a sinistra, foto al vivo a destra */
-.apertura { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 6fr); min-height: 560px; }
+.apertura { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); min-height: 560px; }
 .apertura-testo { display: flex; flex-direction: column; justify-content: center; gap: 22px; padding: 64px 56px 64px max(28px, calc((100vw - var(--larghezza)) / 2 + 28px)); }
 .occhiello { margin: 0; font-size: 16px; font-weight: 700; color: var(--rosso-testo); }
 .apertura h1 { font-size: clamp(42px, 5.4vw, 72px); line-height: 1.02; font-weight: 800; font-stretch: 76%; text-wrap: balance; }
