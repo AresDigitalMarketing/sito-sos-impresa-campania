@@ -1,5 +1,5 @@
 ---
-title: 'Premio “Michele Cavaliere”: i riconoscimenti della 4ª edizione'
+title: 'Premio “Michele Cavaliere”: riconoscimenti e motivazioni della 4ª edizione'
 edizione: 4ª edizione
 date: 2022-11-10
 image: /wp-content/uploads/2022/11/2022.jpg
