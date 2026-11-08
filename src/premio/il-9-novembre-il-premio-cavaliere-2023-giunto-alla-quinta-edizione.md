@@ -6,9 +6,9 @@ image: /wp-content/uploads/2023/11/WhatsApp-Image-2023-04-21-at-12.43.13-1.jpeg
 excerpt: Venerdì 9 novembre, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio.
 ---
 
-Venerdì 9 novembre alle ore 10.30, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio “Michele Cavaliere”.
+Venerdì 9 novembre alle ore 10.30, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio “**Michele Cavaliere**”.
 
-Presenti, tra glia altri, il Commissario Prefettizio del Comune di Castellammare di Stabia Raffaele Cannizzaro, il Commissario Regionale per il coordinamento delle iniziative Antiracket e Antiusura Santi Giuffrè, il Presidente della Commissione del Premio Raffaele Cavaliere (figlio di Michele), i componenti della Commissione Don Luigi Milano, Amalia Dema e Carmen Matarazzo, oltre al Moderatore dell’incontro, Presidente di SOS Impresa – Rete per la Legalità Aps e responsabile del Circolo della Legalità di Castellammare di Stabia, Luigi Cuomo.
+Presenti, tra glia altri, il Commissario Prefettizio del Comune di Castellammare di Stabia **Raffaele Cannizzaro**, il Commissario Regionale per il coordinamento delle iniziative Antiracket e Antiusura **Santi Giuffrè**, il Presidente della Commissione del Premio **Raffaele Cavaliere** (figlio di Michele), i componenti della Commissione Don **Luigi Milano**, **Amalia Dema** e **Carmen Matarazzo**, oltre al Moderatore dell’incontro, Presidente di SOS Impresa – Rete per la Legalità Aps e responsabile del Circolo della Legalità di Castellammare di Stabia, **Luigi Cuomo**.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
@@ -32,4 +32,4 @@ Formatosi sull’esempio di don Bosco e di Monsignor Tonino Bello, prende i voti
 
 Ha scelto la via della giustizia per testimoniare la fede in Dio attraverso il servizio concreto all’umanità sofferente, in sinergia con tutti quelli che credono che la solidarietà sia la vera speranza per il futuro, utilizzando la “parresia” evangelica, ovvero la capacità di dire la verità in maniera schietta e diretta, al fine di riconoscere, promuovere e custodire i diritti delle donne in ogni ambito della vita quotidiana. In particolare, è da rimarcare il coraggio di ridonare, insieme alle sue consorelle orsoline, dignità e inclusione alle donne perlopiù straniere, provenienti dai paesi dell’Africa e dell’Europa dell’est, vittime dello sfruttamento della prostituzione attraverso il calore e l’amore familiare di casa Rut a Caserta e di casa del Magnificat a Roma. La creazione della cooperativa “NewHope”, un laboratorio di sartoria etnica che garantisce formazione e lavoro, è l’opera che esprime in maniera emblematica la volontà di abilitare queste donne in difficoltà a vivere da protagoniste la propria esistenza guardando al domani senza più paura.
 
-A concludere l’evento, il Commissario Nazionale per il coordinamento delle iniziative Antiracket e Antiusura Maria Grazia Nicolò.
+A concludere l’evento, il Commissario Nazionale per il coordinamento delle iniziative Antiracket e Antiusura **Maria Grazia Nicolò**.
