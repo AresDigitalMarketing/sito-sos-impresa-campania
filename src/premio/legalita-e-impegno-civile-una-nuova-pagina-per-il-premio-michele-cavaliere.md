@@ -2,7 +2,7 @@
 title: 'Legalità e impegno civile: una nuova pagina per il Premio “Michele Cavaliere”'
 edizione: 7ª edizione
 date: 2025-11-27
-image: /uploads/intervento-paolo-siani.webp
+image: /uploads/premio/premio-7a-edizione.webp
 excerpt: Al Circolo della Legalità la settima edizione del Premio, nel ricordo di chi ha scelto di non piegarsi alla criminalità.
 ---
 
