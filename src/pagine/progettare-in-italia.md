@@ -1,6 +1,5 @@
 ---
-title: "Progettare in Italia"
-sottotitolo: "Per una cittadinanza Globale"
+title: "Progettare in Italia per una cittadinanza Globale"
 logo: /wp-content/uploads/2025/06/LOGO-progettare-in-italia.png
 partner:
   - /wp-content/uploads/2025/06/sosimpresa_pizzino_trentennale_copertina-1-1.png
