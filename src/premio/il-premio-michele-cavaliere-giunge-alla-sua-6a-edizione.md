@@ -1,5 +1,5 @@
 ---
-title: Il Premio "Michele Cavaliere giunge alla sua 6ª edizione
+title: Il Premio "Michele Cavaliere giunge alla 6ª edizione, scelti i nomi dei premiati
 edizione: 6ª edizione
 date: 2024-03-20
 image: /uploads/premio-6a-edizione-foto.webp
