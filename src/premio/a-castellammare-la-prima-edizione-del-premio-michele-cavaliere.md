@@ -1,9 +1,9 @@
 ---
-title: "A Castellammare la 1ª edizione del Premio “Michele Cavaliere”"
+title: A Castellammare di Stabia la 1ª edizione del Premio “Michele Cavaliere”
+edizione: 1ª edizione
 date: 2019-05-22
-edizione: "1ª edizione"
 image: /wp-content/uploads/2025/09/premiocavaliere.jpg
-excerpt: "Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio."
+excerpt: Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio.
 ---
 
 Giovedì 9 maggio 2019 è andata in scena a Castellammare di Stabia la prima edizione del Premio “Michele Cavaliere”, nato per sottolineare la cultura e l’impegno antimafia nella lotta al racket, all’usura e alla corruzione.
