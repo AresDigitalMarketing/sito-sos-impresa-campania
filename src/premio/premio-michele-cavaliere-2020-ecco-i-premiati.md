@@ -6,7 +6,7 @@ image: /wp-content/uploads/2020/07/2020.jpeg
 excerpt: Lunedì 6 luglio 2020 a Castellammare di Stabia si è tenuta la seconda edizione del Premio.
 ---
 
-Si è tenuta lunedì 6 luglio 2020 a Castellammare di Stabia la seconda edizione del Premio “Michele Cavaliere”, imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996.
+Si è tenuta lunedì 6 luglio 2020 a Castellammare di Stabia la seconda edizione del Premio “**Michele Cavaliere**”, imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
