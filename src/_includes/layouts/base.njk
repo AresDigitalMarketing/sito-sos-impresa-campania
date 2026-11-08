@@ -111,7 +111,6 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
   <div class="contenitore piede-alto">
     <div class="piede-chi">
       <img class="piede-logo" src="/assets/img/logo-sos-impresa-campania.svg" alt="" width="445" height="239" loading="lazy">
-      <p class="piede-testo"><strong>{{ site.nome_completo }}.</strong> {{ site.iscrizioni }}</p>
     </div>
     <div class="piede-dove">
       <h2>Contatti</h2>
@@ -120,6 +119,7 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
       {{ site.sede }}</p>
       {% include "social.njk" %}
     </div>
+    <p class="piede-testo"><strong>{{ site.nome_completo }}</strong><span>{{ site.iscrizioni }}</span></p>
   </div>
   <div class="piede-fondo">
     <div class="contenitore">
