@@ -378,3 +378,6 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
 .partner li { display: flex; align-items: center; justify-content: center; height: 104px; padding: 12px; border: 1px solid var(--bordo); border-radius: var(--raggio); background: var(--bianco); }
 .partner img { max-width: 100%; max-height: 100%; width: auto; }
 .testo img.marchio { max-width: 340px; }
+
+/* Didascalie dei comunicati centrate */
+.scheda-corpo.compatto { text-align: center; align-items: center; }
