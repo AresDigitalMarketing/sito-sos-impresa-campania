@@ -117,7 +117,6 @@ try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.
       <p>WhatsApp <a href="https://wa.me/39{{ site.cellulare | replace(' ', '') }}" target="_blank" rel="noopener">{{ site.cellulare }}</a><br>
       Mail <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
       {{ site.sede }}</p>
-      {% include "social.njk" %}
     </div>
     <p class="piede-testo"><strong>{{ site.nome_completo }}</strong><span>{{ site.iscrizioni }}</span></p>
   </div>

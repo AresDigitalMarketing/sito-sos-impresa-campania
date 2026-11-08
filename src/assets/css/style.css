@@ -177,7 +177,7 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 
 /* Piè di pagina */
 .piede { background: var(--blu-scuro); color: #DCE6F3; font-size: 16.5px; }
-.piede-alto { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 32px 64px; padding-block: 52px; }
+.piede-alto { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: 18px 64px; padding-block: 44px 36px; }
 .piede-chi { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
 .piede-testo { margin: 0; line-height: 1.55; grid-column: 1 / -1; }
 .piede-testo span { display: block; font-size: 15.5px; }
