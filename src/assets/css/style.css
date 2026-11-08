@@ -195,16 +195,10 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 @media (max-width: 900px) { .sedi { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .sedi { grid-template-columns: 1fr; } }
 
-/* Fascia numero verde */
-.chiama { background: var(--rosso-testo); color: var(--bianco); }
-.chiama .contenitore { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 40px; padding-block: 36px; }
-.chiama p { margin: 0; font-size: clamp(24px, 3vw, 32px); font-weight: 700; font-stretch: 82%; line-height: 1.12; }
-.chiama a { color: var(--bianco); text-decoration: none; font-size: clamp(52px, 9vw, 112px); font-weight: 800; font-stretch: 72%; line-height: 1; white-space: nowrap; }
-.chiama a:hover { color: var(--bianco); text-decoration: underline; text-decoration-thickness: 3px; }
-
 /* Enti finanziatori */
-.istituzioni .contenitore { padding-block: 18px; display: flex; justify-content: center; }
-.istituzioni img { width: min(720px, 100%); height: auto; }
+.istituzioni .contenitore { padding-block: 18px; }
+.istituzioni a { display: block; width: min(720px, 100%); margin-inline: auto; }
+.istituzioni img { width: 100%; height: auto; }
 
 /* Piè di pagina */
 .piede { background: var(--blu-scuro); color: #DCE6F3; font-size: 16.5px; }
