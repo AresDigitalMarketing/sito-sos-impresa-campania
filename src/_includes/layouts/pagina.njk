@@ -28,7 +28,7 @@ layout: layouts/base.njk
   {%- endif %}
   {%- if partner and partner.length %}
   <h2 style="font-size:32px;margin:48px 0 20px">Partnerships</h2>
-  <ul class="partner">
+  <ul class="partner{% if partner.length == 12 %} sei{% endif %}">
     {%- for f in partner %}<li><img src="{{ f }}" alt="Logo partner {{ loop.index }}" loading="lazy" decoding="async"></li>{% endfor %}
   </ul>
   {%- endif %}
