@@ -1,6 +1,11 @@
 ---
-title: "Progettare in Italia per una cittadinanza Globale"
+title: Progettare in Italia per una Cittadinanza Globale
+titolo_righe: ''
+sottotitolo: ''
 logo: /wp-content/uploads/2025/06/LOGO-progettare-in-italia.png
+image: ''
+image_alt: ''
+galleria: []
 partner:
   - /wp-content/uploads/2025/06/sosimpresa_pizzino_trentennale_copertina-1-1.png
   - /wp-content/uploads/2025/12/Logo-Progeu-SVG.svg
