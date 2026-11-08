@@ -1,0 +1,23 @@
+# Operazione una tantum: copia nell'archivio due foto del Premio dal vecchio sito.
+name: Foto del Premio
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/foto-premio.yml"]
+permissions:
+  contents: write
+jobs:
+  copia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p src/uploads/premio
+          B=https://www.sosimpresacampania.it
+          curl -fsSL -A "Mozilla/5.0" -o src/uploads/premio/originale-2022.jpg $B/wp-content/uploads/2022/11/2022.jpg
+          curl -fsSL -A "Mozilla/5.0" -o src/uploads/premio/originale-2023.jpg $B/wp-content/uploads/2023/11/WhatsApp-Image-2023-04-21-at-12.43.13-1.jpeg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add src/uploads/premio
+          git commit -m "Copiate altre foto originali del Premio dal vecchio sito" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01FP3VfcYL9npNUDL6fgdwQF"
+          git push
