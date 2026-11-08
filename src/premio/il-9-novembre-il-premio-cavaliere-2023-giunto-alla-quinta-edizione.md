@@ -2,7 +2,7 @@
 title: Palazzo Farnese celebra la 5ª edizione del Premio “Michele Cavaliere”
 edizione: 5ª edizione
 date: 2023-11-22
-image: /wp-content/uploads/2023/11/WhatsApp-Image-2023-04-21-at-12.43.13-1.jpeg
+image: /uploads/premio/premio-5a-edizione.webp
 excerpt: Venerdì 9 novembre, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio.
 ---
 

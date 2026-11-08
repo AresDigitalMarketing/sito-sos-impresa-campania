@@ -2,7 +2,7 @@
 title: 'Premio “Michele Cavaliere”: riconoscimenti e motivazioni della 4ª edizione'
 edizione: 4ª edizione
 date: 2022-11-10
-image: /wp-content/uploads/2022/11/2022.jpg
+image: /uploads/premio/premio-4a-edizione.webp
 excerpt: La speciale commissione del Premio si è riunita per l’edizione 2022 e ha attribuito i riconoscimenti.
 ---
 
