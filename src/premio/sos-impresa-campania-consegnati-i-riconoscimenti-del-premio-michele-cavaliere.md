@@ -6,11 +6,11 @@ image: /wp-content/uploads/2021/07/PREMIO-MICHELE-CAVALIERE-2021.jpeg
 excerpt: La cerimonia di consegna si è svolta il 7 luglio nella chiesa di Sant’Erasmo di Gragnano.
 ---
 
-Si è svolta mercoledì 7 luglio la cerimonia di consegna dei riconoscimenti della terza edizione del Premio “Michele Cavaliere”.
+Si è svolta mercoledì 7 luglio la cerimonia di consegna dei riconoscimenti della terza edizione del Premio “**Michele Cavaliere**”.
 
-L’evento, dedicato alla memoria dell’imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996, è stato ospitato dalla chiesa di Sant’Erasmo di Gragnano. Una scelta non casuale: la parrocchia è la stessa che frequentava Michele Cavaliere e nella quale si recava ogni domenica per la messa.
+L’evento, dedicato alla memoria dell’imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996, è stato ospitato dalla chiesa di Sant’Erasmo di Gragnano. Una scelta non casuale: la parrocchia è la stessa che frequentava **Michele Cavaliere** e nella quale si recava ogni domenica per la messa.
 
-All’evento hanno partecipato il presidente di SOS Impresa – Rete per la Legalità Aps Luigi Cuomo e il Commissario Straordinario del Governo per il coordinamento delle iniziative Antiracket e Antiusura Giovanna Cagliostro, oltre alle autorità civili e militari.
+All’evento hanno partecipato il presidente di SOS Impresa – Rete per la Legalità Aps **Luigi Cuomo** e il Commissario Straordinario del Governo per il coordinamento delle iniziative Antiracket e Antiusura **Giovanna Cagliostro**, oltre alle autorità civili e militari.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
