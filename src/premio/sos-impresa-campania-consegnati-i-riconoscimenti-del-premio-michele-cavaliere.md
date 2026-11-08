@@ -2,7 +2,7 @@
 title: Consegnati gli attestati della 3ª edizione del Premio “Michele Cavaliere”
 edizione: 3ª edizione
 date: 2021-07-12
-image: /wp-content/uploads/2021/07/PREMIO-MICHELE-CAVALIERE-2021.jpeg
+image: /uploads/premio/premio-3a-edizione.webp
 excerpt: La cerimonia di consegna si è svolta lo scorso 7 luglio presso la chiesa di Sant’Erasmo di Gragnano.
 ---
 
