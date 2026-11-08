@@ -1,7 +1,7 @@
 ---
 title: Premio “Michele Cavaliere”
 titolo_righe: ''
-sottotitolo: SOS Impresa – Rete per la Legalità Aps promuove il Premio “Michele Cavaliere”
+sottotitolo: ''
 logo: ''
 image: ''
 image_alt: ''
