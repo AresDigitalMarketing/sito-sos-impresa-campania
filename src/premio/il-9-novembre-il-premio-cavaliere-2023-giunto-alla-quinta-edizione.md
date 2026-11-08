@@ -1,9 +1,9 @@
 ---
-title: "Il Premio “Michele Cavaliere” giunge alla sua quinta edizione"
+title: Il Premio “Michele Cavaliere” giunge alla sua 5ª edizione
+edizione: 5ª edizione
 date: 2023-11-22
-edizione: "5ª edizione"
 image: /wp-content/uploads/2023/11/WhatsApp-Image-2023-04-21-at-12.43.13-1.jpeg
-excerpt: "Venerdì 9 novembre, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio."
+excerpt: Venerdì 9 novembre, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio.
 ---
 
 Venerdì 9 novembre alle ore 10.30, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio “Michele Cavaliere”.
