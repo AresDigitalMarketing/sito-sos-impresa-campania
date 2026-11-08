@@ -51,7 +51,7 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 /* Intestazione */
 .testata { background: var(--bianco); border-bottom: 3px solid var(--blu); position: sticky; top: 0; z-index: 40; }
 .testata .contenitore { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; justify-content: space-between; padding-block: 12px; }
-.marchio img { height: 64px; width: auto; }
+.marchio img { height: 74px; width: auto; }
 .menu { display: flex; flex: 1 1 auto; justify-content: space-between; gap: 2px 13px; align-items: center; font-weight: 600; font-size: 17px; font-stretch: 82%; margin-left: 10px; }
 .menu > a, .tendina > button { color: var(--testo); text-decoration: none; padding: 10px 0; background: none; border: 0; font: inherit; font-stretch: inherit; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .menu > a:hover, .tendina:hover > button, .tendina:focus-within > button { color: var(--rosso-testo); }

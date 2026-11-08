@@ -3,7 +3,7 @@ title: "Percorsi di sostenibilità"
 sottotitolo: "Educazione finanziaria e innovazione sociale"
 logo: /wp-content/uploads/2025/06/LOGO-percorsi-di-sostenibilita.png
 partner:
-  - /wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg
+  - /assets/img/logo-sos-impresa-campania.svg
   - /wp-content/uploads/2025/12/Logo-Progeu-SVG.svg
   - /wp-content/uploads/2025/12/Partner-CODICI-SICILIA.png
   - /wp-content/uploads/2025/12/Partner-CODACONS-SICILIA.png

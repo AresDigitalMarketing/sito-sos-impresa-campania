@@ -14,7 +14,7 @@ backend:
     deleteMedia: "Eliminato file “{{path}}”"
 
 logo:
-  src: /wp-content/uploads/2025/12/SOS-CAMPANIA-Vettoriale.svg
+  src: /assets/img/logo-sos-impresa-campania.svg
 
 media_folder: src/uploads
 public_folder: /uploads
