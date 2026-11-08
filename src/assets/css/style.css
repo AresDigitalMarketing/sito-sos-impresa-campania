@@ -150,7 +150,7 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 
 /* Notizie in home */
 .giornale { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 32px 48px; }
-.apertura-notizia { text-decoration: none; color: var(--testo); display: flex; flex-direction: column; gap: 10px; }
+.apertura-notizia { text-decoration: none; color: var(--testo); display: flex; flex-direction: column; gap: 10px; text-align: center; }
 .apertura-notizia img { aspect-ratio: 16 / 9; width: 100%; object-fit: cover; }
 .apertura-notizia time, .altre-notizie time { font-size: 15px; font-weight: 600; color: var(--rosso-testo); }
 .apertura-notizia .titolo { font-size: clamp(26px, 3vw, 36px); font-weight: 800; font-stretch: 82%; line-height: 1.12; color: var(--blu); }
