@@ -42,7 +42,7 @@ Il progetto prevede la realizzazione delle seguenti attività:
 
 Il progetto prevede il raggiungimento dei seguenti risultati:
 
-- migliorata comprensione delle politiche, programmi e finanziamenti europei
-- aumentata la capacità di progettazione su tematiche specifiche;
-- aumentato l’interesse per la progettazione europea;
-- maggior comprensione dei problemi e delle sfide globali e delle ricadute sul territorio nazionale.
+- Migliorata comprensione delle politiche, programmi e finanziamenti europei;
+- Aumentata la capacità di progettazione su tematiche specifiche;
+- Aumentato l’interesse per la progettazione europea;
+- Maggior comprensione dei problemi e delle sfide globali e delle ricadute sul territorio nazionale.
