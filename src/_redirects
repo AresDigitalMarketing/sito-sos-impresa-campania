@@ -1,11 +1,21 @@
-# PROVVISORIO: immagini e PDF sono ancora presi dal vecchio sito. Da togliere quando i file sono stati copiati in src/wp-content
-/wp-content/*  https://www.sosimpresacampania.it/wp-content/:splat  302
-
 # Vecchi indirizzi del sito WordPress → nuovi indirizzi
 /wp-admin/*                           /admin/                302
 /wp-login.php                         /admin/                302
 /category/*                           /notizie/              301
 /feed/*                               /notizie/              301
+/tag/*                                /notizie/              301
+/author/*                             /                      301
+/document/*                           /documentazione/       301
+/document-category/*                  /documentazione/       301
+/file-type/*                          /documentazione/       301
+/document-library/                    /documentazione/       301
+/document-search/                     /documentazione/       301
+/coordinamenti-regionali/             /contatti/             301
+/albo-avvocati/                       /contatti/             301
+/pon-legalita/                        /por-campania/         301
+/pon-legalita-campania/               /por-campania/         301
+/progetti/                            /                      301
+/fotogallery/                         /videogallery/         301
 
 # Vecchi indirizzi dei comunicati (WordPress) → nuovi indirizzi
 /2026/08/29/comunicato-stampa-29-08-2026-img/  /comunicati-stampa/comunicato-stampa-29-08-2026/  301
