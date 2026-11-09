@@ -222,6 +222,7 @@ collections:
           - { label: Iscrizioni ai registri, name: iscrizioni, widget: text }
           - { label: Pagina Facebook (indirizzo), name: facebook, widget: string, required: false }
           - { label: Profilo Instagram (indirizzo), name: instagram, widget: string, required: false }
+          - { label: Pagina LinkedIn (indirizzo), name: linkedin, widget: string, required: false }
           - { label: Canale YouTube (indirizzo), name: youtube, widget: string, required: false }
           - { label: Indirizzo ufficiale del sito, name: url, widget: string, hint: "Es. https://www.sosimpresacampania.it – senza barra finale. Serve a Google e alla mappa del sito." }
           - { label: Codice fiscale, name: codice_fiscale, widget: string }
