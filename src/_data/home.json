@@ -48,7 +48,7 @@
     {
       "tipo": "Sede operativa",
       "nome": "Castellammare di Stabia",
-      "indirizzo": "Piazza Principe Umberto I nr. 1 – 80053 Castellammare di Stabia (NA)",
+      "indirizzo": "Piazza Principe Umberto I nr. 1 – 80053",
       "presso": "c/o Circolo della Legalità “Michele Cavaliere”",
       "contatti": ""
     },
@@ -57,13 +57,13 @@
       "nome": "Avellino",
       "indirizzo": "Via Nazionale, 121 – 83013 Mercogliano (AV)",
       "presso": "",
-      "contatti": "Tel. 320 012 7029 · sosimpresa.av@mail.com"
+      "contatti": "sosimpresa.av@mail.com"
     },
     {
       "tipo": "Sede operativa",
       "nome": "Caserta",
       "indirizzo": "Via Paolo Riverso, 160 – 81031 Aversa (CE)",
-      "presso": "Ambulatorio Antiracket e Antiusura Terra di Lavoro APS",
+      "presso": "",
       "contatti": "sosimpresacaserta@legalmail.it"
     }
   ]
