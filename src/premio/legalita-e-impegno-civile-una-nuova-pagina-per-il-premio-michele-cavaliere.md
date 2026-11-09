@@ -1,5 +1,5 @@
 ---
-title: 'Legalità e impegno civile: una nuova pagina per il Premio “Michele Cavaliere”'
+title: 'Legalità e impegno civile: si conclude la 7ª edizione del Premio “Michele Cavaliere”'
 edizione: 7ª edizione
 date: 2025-11-27
 image: /uploads/premio/premio-7a-edizione.webp
