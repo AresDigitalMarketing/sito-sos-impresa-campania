@@ -1,7 +1,11 @@
 ---
-title: "Percorsi di sostenibilità"
-sottotitolo: "Educazione finanziaria e innovazione sociale"
+title: Percorsi di sostenibilità
+titolo_righe: ''
+sottotitolo: Educazione finanziaria e innovazione sociale
 logo: /wp-content/uploads/2025/06/LOGO-percorsi-di-sostenibilita.png
+image: ''
+image_alt: ''
+galleria: []
 partner:
   - /assets/img/logo-sos-impresa-campania.svg
   - /wp-content/uploads/2025/12/Logo-Progeu-SVG.svg
@@ -25,29 +29,29 @@ Il progetto “Percorsi di sostenibilità: educazione finanziaria e innovazione 
 
 Il progetto si propone di:
 
-- Fornire un’educazione di qualità, equa e inclusiva, favorendo l’apprendimento permanente in materia di finanza etica, eco-finanza e consumo responsabile.
-- Ridurre le disuguaglianze sociali ed economiche, offrendo supporto e strumenti concreti alle persone in condizioni di vulnerabilità.
+- Fornire un’educazione di qualità, equa e inclusiva, favorendo l’apprendimento permanente in materia di finanza etica, eco-finanza e consumo responsabile;
+- Ridurre le disuguaglianze sociali ed economiche, offrendo supporto e strumenti concreti alle persone in condizioni di vulnerabilità;
 - Promuovere la sostenibilità e l’innovazione sociale, diffondendo consapevolezza sui legami tra economia, ambiente e diritti di cittadinanza.
 
 ## Attività
 
 Le azioni principali previste dal progetto includono:
 
-- 19 eventi formativi regionali di educazione finanziaria, con moduli dedicati a finanza agevolata, finanza etica ed eco-finanza.
-- 19 sportelli territoriali di consulenza, per offrire supporto pratico e personalizzato a cittadini e famiglie in materia di gestione del bilancio e accesso ai servizi.
+- 19 eventi formativi regionali di educazione finanziaria, con moduli dedicati a finanza agevolata, finanza etica ed eco-finanza;
+- 19 sportelli territoriali di consulenza, per offrire supporto pratico e personalizzato a cittadini e famiglie in materia di gestione del bilancio e accesso ai servizi;
 - Una ricerca empirica sull’economia legale, volta ad analizzare le infiltrazioni delle attività illegali nell’economia e a sensibilizzare sul loro impatto sociale.
-- Realizzazione di guide audiovisive e materiali informativi divulgativi, accessibili online e diffusi tramite canali social.
-- Campagna di comunicazione nazionale per sensibilizzare almeno 100.000 persone sui temi dell’educazione finanziaria e dell’innovazione sociale.
+- Realizzazione di guide audiovisive e materiali informativi divulgativi, accessibili online e diffusi tramite canali social;
+- Campagna di comunicazione nazionale per sensibilizzare almeno 100.000 persone sui temi dell’educazione finanziaria e dell’innovazione sociale;
 - Valutazione d’impatto indipendente, per garantire trasparenza e misurare l’efficacia delle azioni intraprese.
 
 ## Risultati attesi
 
 Il progetto punta a conseguire risultati concreti e misurabili:
 
-- Aumento dei livelli di alfabetizzazione finanziaria tra cittadini e comunità locali.
-- Supporto diretto a oltre 700 persone attraverso gli sportelli di consulenza.
-- Coinvolgimento attivo di oltre 380 partecipanti nei workshop formativi.
-- Diffusione nazionale di conoscenze e buone pratiche, con una campagna di comunicazione che raggiungerà almeno 100.000 persone.
+- Aumento dei livelli di alfabetizzazione finanziaria tra cittadini e comunità locali;
+- Supporto diretto a oltre 700 persone attraverso gli sportelli di consulenza;
+- Coinvolgimento attivo di oltre 380 partecipanti nei workshop formativi;
+- Diffusione nazionale di conoscenze e buone pratiche, con una campagna di comunicazione che raggiungerà almeno 100.000 persone;
 - Maggiore consapevolezza dei legami tra economia, ambiente e coesione sociale.
 
 Per visionare il formulario dell’iniziativa (Modello D) [clicca qui](https://progeu.org/wp-content/uploads/2025/09/modello-d-scheda-della-proposta_educazione-finanziaria-e-innovazione-sociale_finale.pdf)
