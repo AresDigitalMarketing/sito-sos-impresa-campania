@@ -1,0 +1,37 @@
+# Operazione una tantum: copia nel nuovo sito immagini e PDF ancora ospitati dal vecchio WordPress.
+name: Copia file dal vecchio sito
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/copia-wp.yml"]
+permissions:
+  contents: write
+jobs:
+  copia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: DNS attuale
+        run: |
+          for t in NS A AAAA MX TXT; do echo "== $t"; dig +short sosimpresacampania.it $t; done
+          echo "== www"; dig +short www.sosimpresacampania.it A; dig +short www.sosimpresacampania.it CNAME
+          dig +short _dmarc.sosimpresacampania.it TXT
+          whois sosimpresacampania.it 2>/dev/null | head -30 || true
+      - name: Copia
+        run: |
+          B=https://www.sosimpresacampania.it
+          ok=0; ko=0; : > /tmp/errori.txt
+          while IFS= read -r p; do
+            [ -z "$p" ] && continue
+            d=$(python3 -c 'import sys,urllib.parse as u;print(u.unquote(sys.argv[1]))' "$p")
+            mkdir -p "src$(dirname "$d")"
+            if curl -fsSL --retry 3 --retry-delay 3 -A "Mozilla/5.0" -o "src$d" "$B$p"; then ok=$((ok+1)); else ko=$((ko+1)); echo "$p" >> /tmp/errori.txt; rm -f "src$d"; fi
+          done < .github/lista-wp.txt
+          echo "copiati $ok, errori $ko"; cat /tmp/errori.txt
+          du -sh src/wp-content; find src/wp-content -type f -size +20M -exec ls -la {} \;
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add src/wp-content
+          git commit -m "Copiati nel nuovo sito immagini e PDF del vecchio WordPress" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01FP3VfcYL9npNUDL6fgdwQF"
+          git pull --rebase origin main
+          git push
