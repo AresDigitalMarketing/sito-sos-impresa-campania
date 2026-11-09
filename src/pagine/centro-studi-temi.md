@@ -1,7 +1,7 @@
 ---
 title: "Centro Studi Temi"
 sottotitolo: "Temi per la legalità è il Centro Studi e Ricerche di SOS Impresa\nDirettore responsabile del Centro studi Temi è Lino Busà"
-logo: /uploads/logo-centro-studi-temi.png
+logo: /uploads/logo-centro-studi-temi.svg
 ---
 
 La collana “Fumetti Antiracket e Antiusura” è parte delle attività del Centro Studi TE.MI. per la Legalità. Questo centro produce, tra l’altro, bollettini informativi destinati a tutti gli associati, simpatizzanti e alle associazioni della rete nazionale di “SOS Impresa – Rete per la Legalità”.

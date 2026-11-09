@@ -384,3 +384,13 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
   .testo.riquadri ul { grid-template-columns: 1fr; }
   .testo.riquadri a { min-height: 200px; font-size: 26px; }
 }
+
+/* Centro Studi Temi: logo sulla stessa riga del titolo */
+@media (min-width: 701px) {
+  .pagina-testa.con-logo.logo-sul-titolo { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 24px; align-items: center; }
+  .logo-sul-titolo > div { display: contents; }
+  .logo-sul-titolo .briciole { grid-column: 1 / -1; }
+  .logo-sul-titolo h1 { grid-column: 1; grid-row: 2; }
+  .logo-sul-titolo .logo-progetto { grid-column: 2; grid-row: 2; width: 320px; max-width: 320px; max-height: none; margin-block: -14px; }
+  .logo-sul-titolo p { grid-column: 1 / -1; }
+}
