@@ -1,6 +1,6 @@
 ---
 title: "Pubblicazioni"
-sottotitolo: "Fumetti antiracket, bollettini e pubblicazioni dell’associazione."
+sottotitolo: "Fumetti antiracket, bollettini e pubblicazioni dell’associazione"
 ---
 
 

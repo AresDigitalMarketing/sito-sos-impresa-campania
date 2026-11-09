@@ -1,7 +1,7 @@
 ---
 title: Chi siamo
 titolo_righe: ''
-sottotitolo: Associazione antiracket e antiusura, coordinamento della Campania di SOS Impresa – Rete per la Legalità Aps.
+sottotitolo: Associazione antiracket e antiusura, coordinamento della Campania di SOS Impresa – Rete per la Legalità Aps
 logo: ''
 image: ''
 image_alt: ''
