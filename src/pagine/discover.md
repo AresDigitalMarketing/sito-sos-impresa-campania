@@ -1,6 +1,11 @@
 ---
-title: "Discover"
+title: Discover
+titolo_righe: ''
+sottotitolo: ''
 logo: /wp-content/uploads/2025/06/Logo-Discover-PNG2-1024x512.png
+image: ''
+image_alt: ''
+galleria: []
 partner:
   - /wp-content/uploads/2025/06/sosimpresa_pizzino_trentennale_copertina-1-1.png
   - /wp-content/uploads/2025/12/Logo-Progeu-SVG.svg
@@ -23,7 +28,7 @@ Il progetto persegue i seguenti obiettivi:
 
 Il progetto prevede la realizzazione delle seguenti attività:
 
-- la realizzazione di una ricerca, tramite interviste agli stakeholders, volta a indagare i livelli di conoscenza della legislazione europea e nazionale in materia di lavoro sommerso e dei diritti dei lavoratori;
+- la realizzazione di una ricerca, tramite interviste agli stakeholder, volta a indagare i livelli di conoscenza della legislazione europea e nazionale in materia di lavoro sommerso e dei diritti dei lavoratori;
 - l’organizzazione di quattro tavoli di discussione per condividere idee e strategie di contrasto al lavoro sommerso;
 - l’implementazione di una campagna informativa sulle caratteristiche del lavoro sommerso, i diritti dei lavoratori e le strategie di contrasto.
 
@@ -32,11 +37,11 @@ Il progetto prevede la realizzazione delle seguenti attività:
 Il progetto prevede il raggiungimento dei seguenti risultati:
 
 - l’aumento dei livelli di conoscenza delle legislazioni europea e nazionale in materia di lavoro sommerso;
-- il miglioramento della comunicazione e della cooperazione tra stakeholders con diversi livelli di interesse, potere e influenza;
+- il miglioramento della comunicazione e della cooperazione tra stakeholder con diversi livelli di interesse, potere e influenza;
 - una maggiore comprensione delle situazioni di lavoro irregolare;
 - il miglioramento della formulazione di politiche e procedure nazionali per contrastare il fenomeno del lavoro sommerso;
 - l’aumento di dati utili al miglioramento delle linee guida europee.
 
 <img class="marchio" src="/wp-content/uploads/2025/12/IT-Cofinanziato-dallUnione-europea_POS-scaled-1.jpg" alt="Cofinanziato dall’Unione europea" loading="lazy">
 
-Finanziato dall’Unione europea. I punti di vista e le opinioni espresse sono tuttavia esclusivamente quelli dell’autore o degli autori e non riflettono necessariamente quelli dell’Unione europea o dell’EMPL.E – Mobilità del lavoro e affari internazionali. Né l’Unione Europea né l’autorità che ha concesso il finanziamento possono essere ritenute responsabili.(Project ID. 101140272)
+Finanziato dall’Unione europea. I punti di vista e le opinioni espresse sono tuttavia esclusivamente quelli dell’autore o degli autori e non riflettono necessariamente quelli dell’Unione europea o dell’EMPL.E – Mobilità del lavoro e affari internazionali. Né l’Unione Europea né l’autorità che ha concesso il finanziamento possono essere ritenute responsabili (Project ID. 101140272).
