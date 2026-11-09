@@ -18,7 +18,7 @@ partner:
 
 Comprendere il funzionamento dei fondi europei e saper progettare in modo efficace è cruciale per ottenere finanziamenti e contribuire al progresso economico, sociale e territoriale. Gli enti del terzo settore e le istituzioni pubbliche devono essere consapevoli delle diverse fonti di finanziamento disponibili, dei programmi e degli obiettivi specifici associati a ciascun fondo, al fine di massimizzare le opportunità di sviluppo e crescita intesa sia a livello nazionale che di Unione Europea.
 
-Il progetto “Progettare in Italia per una cittadinanza Globale”, finanziato dal Ministero del Lavoro e delle Politiche Sociali” ha come obiettivo quello di facilitare la comprensione del funzionamento dei fondi europei agli enti del terzo settore e alle istituzioni pubbliche, in modo da intercettare le opportunità di finanziamento disponibili a livello locale, nazionale ed europeo.
+Il progetto “Progettare in Italia per una cittadinanza Globale”, finanziato dal Ministero del Lavoro e delle Politiche Sociali, ha come obiettivo quello di facilitare la comprensione del funzionamento dei fondi europei agli enti del terzo settore e alle istituzioni pubbliche, in modo da intercettare le opportunità di finanziamento disponibili a livello locale, nazionale ed europeo.
 
 ## Obiettivi
 
