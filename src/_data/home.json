@@ -27,21 +27,21 @@
     {
       "tipo": "Sede regionale",
       "nome": "Napoli",
-      "indirizzo": "Via Toledo, 148 – 80128 Napoli",
+      "indirizzo": "Via Toledo, 148 – 80128",
       "presso": "c/o Confesercenti Regionale della Campania",
       "contatti": ""
     },
     {
       "tipo": "Sede operativa",
       "nome": "Napoli – Pianura",
-      "indirizzo": "Via vicinale Trencia, 62 – 80126 Napoli",
+      "indirizzo": "Via Vicinale Trencia, 62 – 80126",
       "presso": "c/o Associazione dei Commercianti di Pianura",
       "contatti": ""
     },
     {
       "tipo": "Sede operativa",
       "nome": "Napoli – Ponticelli",
-      "indirizzo": "Via Cupa San Pietro, 40/bis – 80147 Napoli",
+      "indirizzo": "Via Cupa San Pietro, 40/bis – 80147",
       "presso": "c/o Associazione Report",
       "contatti": ""
     },
