@@ -296,6 +296,8 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
 .social a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; text-decoration: none; padding: 8px 0; min-height: 44px; }
 .social svg { flex: none; }
 .seguici { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 18px; padding-top: 20px; border-top: 1px solid var(--bordo); }
+.seguici-home { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px; }
+.seguici-home h2 { margin: 0; }
 
 /* Note legali nel piè di pagina */
 .piede-link { display: flex; flex-wrap: wrap; gap: 6px 20px; }
