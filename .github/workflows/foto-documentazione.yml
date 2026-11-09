@@ -1,0 +1,22 @@
+# Operazione una tantum: copia dal vecchio sito due immagini (Documentazione e Centro Studi Temi).
+name: Immagini Documentazione e Centro Studi
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/foto-documentazione.yml"]
+permissions:
+  contents: write
+jobs:
+  copia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          B=https://www.sosimpresacampania.it/wp-content/uploads
+          curl -fsSL -A "Mozilla/5.0" -o src/uploads/documentazione-sede-originale.png "$B/2025/09/Screenshot-2025-09-18-alle-23.37.39.png"
+          curl -fsSL -A "Mozilla/5.0" -o src/uploads/logo-centro-studi-temi.png "$B/2025/06/temi-centrostudi-1.png"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add src/uploads/documentazione-sede-originale.png src/uploads/logo-centro-studi-temi.png
+          git commit -m "Copiate dal vecchio sito le immagini di Documentazione e Centro Studi Temi" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_01FP3VfcYL9npNUDL6fgdwQF"
+          git push
