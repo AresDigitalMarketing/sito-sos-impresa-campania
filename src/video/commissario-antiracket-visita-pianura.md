@@ -1,5 +1,5 @@
 ---
-title: Il Commissario Straordinario Antiracket in visita a Pianura per esprimere solidarietà a Luigi Cuomo
+title: Il Commissario Straordinario Antiracket in visita a Pianura
 date: 2025-05-17
 youtube: https://www.youtube.com/watch?v=Sd7NyFC77qM
 fonte: SOS Impresa – Rete per la Legalità
