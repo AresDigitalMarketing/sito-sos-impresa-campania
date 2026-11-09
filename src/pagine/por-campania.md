@@ -30,4 +30,4 @@ L’azione progettuale mira a garantire un accompagnamento individuale dei benef
 
 Tramite il link sottostante è possibile consultare la pagina dedicata:
 
-[https://servizi-digitali.regione.campania.it/VittimeUsura#documenti](https://servizi-digitali.regione.campania.it/VittimeUsura#documenti)
+[Regione Campania: Vittime Usura](https://servizi-digitali.regione.campania.it/VittimeUsura#documenti)
