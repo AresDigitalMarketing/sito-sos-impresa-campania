@@ -351,8 +351,8 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
 }
 
 /* Pagine dei progetti */
-.pagina-testa.con-logo { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px 40px; }
-.logo-progetto { flex: none; max-width: 300px; max-height: 130px; width: auto; height: auto; }
+.pagina-testa.con-logo { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px 24px; }
+.logo-progetto { flex: none; max-width: 240px; max-height: 110px; width: auto; height: auto; }
 @media (max-width: 700px) {
   .pagina-testa.con-logo { flex-direction: column; }
   .logo-progetto { max-width: 220px; max-height: 110px; }
