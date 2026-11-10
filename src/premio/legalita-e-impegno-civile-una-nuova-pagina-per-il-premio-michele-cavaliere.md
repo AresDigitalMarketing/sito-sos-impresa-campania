@@ -3,6 +3,7 @@ title: 'Legalità e impegno civile: si conclude la 7ª edizione del Premio “Mi
 edizione: 7ª edizione
 date: 2025-11-27
 image: /uploads/premio/premio-7a-edizione.webp
+locandina: /uploads/premio/locandina-7a-edizione.webp
 excerpt: Al Circolo della Legalità si è svolta la settima edizione del Premio, nel ricordo di chi ha scelto di non piegarsi alla criminalità.
 ---
 

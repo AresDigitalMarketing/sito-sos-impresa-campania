@@ -3,6 +3,7 @@ title: 'Celebrata la 2ª edizione del Premio “Michele Cavaliere”: nomi e mot
 edizione: 2ª edizione
 date: 2020-07-22
 image: /uploads/premio/premio-2a-edizione-dritta.webp
+locandina: /uploads/premio/locandina-2a-edizione.webp
 excerpt: Lunedì 6 luglio 2020 si è tenuta la seconda edizione del Premio, nella splendida cornice di Castellammare di Stabia.
 ---
 

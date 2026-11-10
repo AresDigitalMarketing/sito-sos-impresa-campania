@@ -120,6 +120,7 @@ collections:
       - { label: Edizione (es. 5ª edizione), name: edizione, widget: string }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: Foto principale, name: image, widget: image, required: false }
+      - { label: Locandina (anteprima nella pagina del Premio), name: locandina, widget: image, required: false }
       - { label: Sommario, name: excerpt, widget: text, required: false }
       - { label: Testo, name: body, widget: markdown }
 

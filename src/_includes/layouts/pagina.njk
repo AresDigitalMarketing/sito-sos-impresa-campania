@@ -18,7 +18,11 @@ layout: layouts/base.njk
   <div class="griglia">
     {%- for n in collections.premio %}
     <a class="scheda" href="{{ n.url }}">
+      {%- if n.data.locandina %}
+      <span class="scheda-locandina"><img src="{{ n.data.locandina }}" alt="Locandina della {{ n.data.edizione }}" loading="lazy" decoding="async"></span>
+      {%- else %}
       <img class="scheda-img" src="{{ n.data.image }}" alt="" loading="lazy" decoding="async">
+      {%- endif %}
       <div class="scheda-corpo">
         <span class="scheda-data">{{ n.data.edizione }} · {{ n.date.getFullYear() }}</span>
         <span class="scheda-titolo">{{ n.data.title }}</span>
