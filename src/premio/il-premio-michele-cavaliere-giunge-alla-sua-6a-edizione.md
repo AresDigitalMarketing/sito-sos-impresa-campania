@@ -3,7 +3,7 @@ title: Il Premio "Michele Cavaliere giunge alla 6ª edizione, scelti i nomi dei 
 edizione: 6ª edizione
 date: 2024-03-20
 image: /uploads/premio-6a-edizione-foto.webp
-locandina: /uploads/premio/locandina-6a-edizione.webp?v=2
+locandina: /uploads/premio/locandina-6a-edizione.webp?v=3
 excerpt: Cultura e impegno contro le mafie rappresentano i temi della manifestazione, giunta alla sua sesta edizione.
 ---
 
