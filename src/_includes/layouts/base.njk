@@ -50,13 +50,25 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});
 gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);
 try{var c=JSON.parse(localStorage.getItem('sos_consent_v1'));if(c&&Date.now()-c.t<15552e6)gtag('consent','update',{analytics_storage:c.s?'granted':'denied',ad_storage:c.m?'granted':'denied',ad_user_data:c.m?'granted':'denied',ad_personalization:c.m?'granted':'denied'})}catch(e){}
-{%- if site.gtm_id %}
-(function(w,d,s,l,i){w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','{{ site.gtm_id }}');
-{%- endif %}
 </script>
+{%- if site.gtm_id %}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
+<!-- End Google Tag Manager -->
+{%- endif %}
 <script src="/assets/js/consenso.js?v={{ versione }}" defer></script>
 </head>
 <body>
+{%- if site.gtm_id %}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.gtm_id }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{%- endif %}
 <a class="salta" href="#contenuto">Vai al contenuto</a>
 {%- if site.modalita_prova %}
 <div class="avviso-prova">Versione di prova del nuovo sito</div>
