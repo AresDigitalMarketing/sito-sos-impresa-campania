@@ -170,7 +170,7 @@ collections:
       - { label: Documentazione, name: documentazione, file: src/pagine/documentazione.md, fields: *campiPagina }
       - { label: Legislazione, name: legislazione, file: src/pagine/legislazione.md, fields: *campiPagina }
       - { label: Pubblicazioni, name: pubblicazioni, file: src/pagine/pubblicazioni.md, fields: *campiPagina }
-      - { label: Osservatorio Antiracket e Antiusura, name: osservatorio, file: src/pagine/osservatorio-antiusura.md, fields: *campiPagina }
+      - { label: Osservatorio Antiusura, name: osservatorio, file: src/pagine/osservatorio-antiusura.md, fields: *campiPagina }
       - { label: Relazioni Comitato Solidarietà, name: relazioni, file: src/pagine/relazioni-annuali-comitato-solidarieta.md, fields: *campiPagina }
       - { label: Centro Studi Temi, name: centro_studi, file: src/pagine/centro-studi-temi.md, fields: *campiPagina }
       - { label: P.O.R. Campania, name: por, file: src/pagine/por-campania.md, fields: *campiPagina }

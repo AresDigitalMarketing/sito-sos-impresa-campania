@@ -1,5 +1,5 @@
 ---
-title: "Osservatorio Antiracket e Antiusura"
+title: "Osservatorio Antiusura"
 ---
 
 
