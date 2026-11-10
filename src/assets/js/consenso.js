@@ -45,7 +45,7 @@
     if (h.indexOf('tel:') === 0) {
       dl.push({ event: 'click_telefono', numero: h.slice(4) });
       window.fbq && fbq('track', 'Contact', { metodo: 'telefono' });
-    } else if (h.indexOf('mailto:') === 0) {
+    } else if (h.indexOf('mailto:') === 0 && !a.hasAttribute('data-condividi')) {
       dl.push({ event: 'click_email', email: h.slice(7).split('?')[0] });
       window.fbq && fbq('track', 'Contact', { metodo: 'email' });
     } else if (/^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(h) && !a.hasAttribute('data-condividi')) {
