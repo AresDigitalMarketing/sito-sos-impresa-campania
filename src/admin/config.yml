@@ -167,7 +167,7 @@ collections:
           - { label: Loghi dei partner, name: partner, widget: image, multiple: true, required: false }
       - { label: Convenzione Antiracket, name: convenzione, file: src/pagine/convenzioniantiracket.md, fields: *campiPagina }
       - { label: Patto Antiracket, name: patto, file: src/pagine/patto-antiracket.md, fields: *campiPagina }
-      - { label: Documentazione, name: documentazione, file: src/pagine/documentazione.md, fields: *campiPagina }
+      - { label: Archivi, name: archivi, file: src/pagine/archivi.md, fields: *campiPagina }
       - { label: Legislazione, name: legislazione, file: src/pagine/legislazione.md, fields: *campiPagina }
       - { label: Pubblicazioni, name: pubblicazioni, file: src/pagine/pubblicazioni.md, fields: *campiPagina }
       - { label: Osservatorio Antiusura, name: osservatorio, file: src/pagine/osservatorio-antiusura.md, fields: *campiPagina }

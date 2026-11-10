@@ -5,11 +5,12 @@
 /feed/*                               /notizie/              301
 /tag/*                                /notizie/              301
 /author/*                             /                      301
-/document/*                           /documentazione/       301
-/document-category/*                  /documentazione/       301
-/file-type/*                          /documentazione/       301
-/document-library/                    /documentazione/       301
-/document-search/                     /documentazione/       301
+/documentazione/                      /archivi/              301
+/document/*                           /archivi/              301
+/document-category/*                  /archivi/              301
+/file-type/*                          /archivi/              301
+/document-library/                    /archivi/              301
+/document-search/                     /archivi/              301
 /coordinamenti-regionali/             /contatti/             301
 /albo-avvocati/                       /contatti/             301
 /pon-legalita/                        /por-campania/         301

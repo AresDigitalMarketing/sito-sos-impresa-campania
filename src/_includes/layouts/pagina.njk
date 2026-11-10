@@ -12,7 +12,7 @@ layout: layouts/base.njk
 </div>
 <div class="contenitore" style="padding-bottom:72px">
   {%- if image %}<img src="{{ image }}" alt="{{ image_alt or '' }}" style="border-radius:8px;margin-bottom:32px;max-width:960px;width:100%">{% endif %}
-  <div class="testo larga{% if page.fileSlug == 'documentazione' %} riquadri{% endif %}">{{ content | safe }}</div>
+  <div class="testo larga{% if page.fileSlug == 'archivi' %} riquadri{% endif %}">{{ content | safe }}</div>
   {%- if elenco_premio %}
   <h2 style="font-size:32px;margin:48px 0 20px">Le edizioni del Premio</h2>
   <div class="griglia">
