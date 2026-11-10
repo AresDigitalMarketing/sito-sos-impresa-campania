@@ -410,3 +410,4 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
 /* Premio: anteprime con la locandina dell'edizione, mostrata intera */
 .scheda-locandina { display: block; padding: 14px; background: #eef2f7; border-bottom: 1px solid var(--linea, #e3e8ef); }
 .scheda-locandina img { display: block; width: 100%; height: auto; aspect-ratio: 5 / 7; box-shadow: 0 4px 14px rgba(10, 52, 103, .18); }
+.copertine a span { text-align: center; }
