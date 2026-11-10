@@ -394,3 +394,11 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
   .logo-sul-titolo .logo-progetto { grid-column: 2; grid-row: 2; width: 320px; max-width: 320px; max-height: none; margin-block: -14px; }
   .logo-sul-titolo p { grid-column: 1 / -1; }
 }
+
+/* Home: foto di apertura verticale, spazio più alto per far vedere anche il cartello */
+.apertura-alta { min-height: 700px; }
+.apertura-alta .apertura-foto img { object-position: 50% 8%; }
+@media (max-width: 860px) {
+  .apertura-alta { min-height: 0; }
+  .apertura-alta .apertura-foto { aspect-ratio: 1 / 1; }
+}
