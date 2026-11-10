@@ -19,7 +19,7 @@ Ha sede sociale a Napoli alla Via Toledo 148, presso la sede della Confesercenti
 
 In Campania aderiscono a SOS Impresa – Rete per la Legalità Aps, oltre al coordinamento della Campania, l’associazione antiracket Pianura per la Legalità, la Fondazione Paulus, SOS Impresa Avellino, l’Ambulatorio antiracket e antiusura di Terra di Lavoro, SOS Impresa Salerno, la Cooperativa Xenia, l’associazione Rete Legale Etica, il Circolo della Legalità di Castellammare di Stabia e diversi referenti locali in tutta la Regione. Nella sola provincia di Napoli sono iscritte nell’albo della Prefettura, oltre al coordinamento della Campania, Pianura per la Legalità, Fondazione Paulus, Rete Legale Etica e la Cooperativa Xenia.
 
-Il presidente del coordinamento della Campania è anche presidente nazionale di SOS Impresa – Rete per la Legalità Aps, componente del Comitato di Solidarietà per le vittime del racket e dell’usura e dell’Osservatorio antiusura, costituito nell’ambito dell’Accordo Quadro sottoscritto dal Ministro degli Interni e dal Presidente dell’ABI il 16 novembre 2021. Inoltre, con Decreto dirigenziale della Regione Campania n.872 del 09/09/2023 – Dir.generale/ufficio 5 – UOD 1, l’associazione ha ottenuto l’iscrizione cumulativa nel RUNTS, sez. APS di cui all’art. 46 co. 1 lett. b) del Codice del Terzo Settore.
+La presidente del coordinamento della Campania è Anna Ferrara, eletta all’unanimità dall’Assemblea regionale dei soci.
 
 ## Cosa facciamo
 
