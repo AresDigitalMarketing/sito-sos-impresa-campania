@@ -402,3 +402,7 @@ dialog.lightbox::backdrop { background: rgba(6, 22, 46, .94); }
   .apertura-alta { min-height: 0; }
   .apertura-alta .apertura-foto { aspect-ratio: 1 / 1; }
 }
+@media (min-width: 861px) {
+  .apertura-alta h1 { font-size: clamp(46px, 5.2vw, 71px); }
+  .apertura-alta p.intro { font-size: clamp(21px, 1.8vw, 25px); max-width: 600px; text-wrap: balance; }
+}
