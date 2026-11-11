@@ -142,8 +142,10 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 /* Convenzione e Patto */
 .adesioni { display: grid; grid-template-columns: 1fr 1fr; }
 .adesione { display: flex; flex-direction: column; gap: 10px; padding: 60px max(28px, calc((100vw - var(--larghezza)) / 2 + 28px)); color: var(--bianco); text-decoration: none; }
-.adesione.blu { background: var(--blu); padding-left: 56px; }
-.adesione.rossa { background: var(--rosso-testo); padding-right: 56px; }
+.adesione.blu { background: var(--blu); }
+.adesione.rossa { background: var(--rosso-testo); }
+.adesione:first-child { padding-right: 56px; }
+.adesione:last-child { padding-left: 56px; }
 .adesione:hover { color: var(--bianco); }
 .adesione.blu:hover, .adesione.rossa:hover { filter: brightness(.92); }
 .adesione small { font-size: 16px; font-weight: 600; }
@@ -152,7 +154,7 @@ h2 { font-size: clamp(32px, 4.4vw, 46px); letter-spacing: -.005em; }
 .adesione em { font-style: normal; font-weight: 700; margin-top: 8px; }
 @media (max-width: 760px) {
   .adesioni { grid-template-columns: 1fr; }
-  .adesione, .adesione.blu, .adesione.rossa { padding: 44px 28px; }
+  .adesione, .adesione:first-child, .adesione:last-child { padding: 44px 28px; }
 }
 
 /* Pubblicazioni in home */
