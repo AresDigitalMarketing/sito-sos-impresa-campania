@@ -5,6 +5,7 @@
 /feed/*                               /notizie/              301
 /tag/*                                /notizie/              301
 /author/*                             /                      301
+/legge-n-124/                          /legge-124/            301
 /documentazione/                      /archivi/              301
 /document/*                           /archivi/              301
 /document-category/*                  /archivi/              301

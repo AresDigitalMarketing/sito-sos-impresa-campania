@@ -180,7 +180,7 @@ collections:
       - { label: Percorsi di sostenibilità, name: percorsi, file: src/pagine/percorsi-di-sostenibilita.md, fields: *campiPagina }
       - { label: Economia Circolare e Digitalizzazione, name: economia, file: src/pagine/economia-circolare-e-digitalizzazione.md, fields: *campiPagina }
       - { label: Progettare in Italia per una cittadinanza Globale, name: progettare, file: src/pagine/progettare-in-italia.md, fields: *campiPagina }
-      - { label: Legge 124/2017, name: legge124, file: src/pagine/legge-n-124.md, fields: *campiPagina }
+      - { label: Legge 124/2017, name: legge124, file: src/pagine/legge-124.md, fields: *campiPagina }
 
   - name: impostazioni
     label: Impostazioni
