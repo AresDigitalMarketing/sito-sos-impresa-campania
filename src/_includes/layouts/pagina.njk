@@ -17,7 +17,7 @@ layout: layouts/base.njk
   <h2 style="font-size:32px;margin:48px 0 20px">Le edizioni del Premio</h2>
   <div class="griglia">
     {%- for n in collections.premio %}
-    <a class="scheda" href="{{ n.url }}">
+    {%- if n.data.solo_anteprima %}<div class="scheda">{% else %}<a class="scheda" href="{{ n.url }}">{% endif %}
       {%- if n.data.locandina %}
       <span class="scheda-locandina"><img src="{{ n.data.locandina }}" alt="Locandina della {{ n.data.edizione }}" loading="lazy" decoding="async"></span>
       {%- else %}
@@ -28,7 +28,7 @@ layout: layouts/base.njk
         <span class="scheda-titolo">{{ n.data.title }}</span>
         {%- if n.data.excerpt %}<p class="scheda-testo">{{ n.data.excerpt }}</p>{% endif %}
       </div>
-    </a>
+    {%- if n.data.solo_anteprima %}</div>{% else %}</a>{% endif %}
     {%- endfor %}
   </div>
   {%- endif %}

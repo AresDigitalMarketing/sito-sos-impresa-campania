@@ -118,6 +118,7 @@ collections:
     fields:
       - { label: Titolo, name: title, widget: string }
       - { label: Edizione (es. 5ª edizione), name: edizione, widget: string }
+      - { label: Solo anteprima (articolo non ancora pronto), name: solo_anteprima, widget: boolean, required: false, default: false, hint: "Se attivo, l'edizione compare nella pagina del Premio ma non si apre. Disattivalo quando pubblichi l'articolo." }
       - { label: Data, name: date, widget: datetime, time_format: false, format: YYYY-MM-DD }
       - { label: Foto principale, name: image, widget: image, required: false }
       - { label: Locandina (anteprima nella pagina del Premio), name: locandina, widget: image, required: false }
