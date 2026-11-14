@@ -1,13 +1,14 @@
 ---
 title: 'Legalità e impegno civile: si conclude la 7ª edizione del Premio “Michele Cavaliere”'
 edizione: 7ª edizione
+solo_anteprima: false
 date: 2025-11-27
 image: /uploads/premio/premio-7a-edizione.webp
 locandina: /uploads/premio/locandina-7a-edizione.webp?v=2
 excerpt: Al Circolo della Legalità si è svolta la settima edizione del Premio, nel ricordo di chi ha scelto di non piegarsi alla criminalità.
 ---
 
-L’edizione 2025 del Premio "**Michele Cavaliere**" assume un valore particolarmente intenso in quanto dedicata alla memoria di **Amalia Dema**, donna di straordinaria umanità e impegno civile, componente del Comitato di assegnazione del Premio e punto di riferimento silenzioso e instancabile per il mondo della legalità e della solidarietà sociale.
+L’edizione 2025 del Premio "Michele Cavaliere" assume un valore particolarmente intenso in quanto dedicata alla memoria di **Amalia Dema**, donna di straordinaria umanità e impegno civile, componente del Comitato di assegnazione del Premio e punto di riferimento silenzioso e instancabile per il mondo della legalità e della solidarietà sociale.
 
 Celebratasi lo scorso 25 novembre presso il Circolo della Legalità di Castellammare di Stabia, la manifestazione rinnova la memoria di **Michele Cavaliere**, riconoscendo il contributo di persone che, nei rispettivi ambiti, danno valore alla legalità e alla responsabilità verso gli altri.
 
