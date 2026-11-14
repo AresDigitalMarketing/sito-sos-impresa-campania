@@ -1,14 +1,19 @@
-// Gli articoli del Premio mantengono gli stessi indirizzi del vecchio sito WordPress:
-// /anno/mese/giorno/titolo/
+// Gli articoli del Premio hanno indirizzi del tipo /premio-cavaliere-prima-edizione/,
+// ricavati dal campo «Edizione» (es. «3ª edizione» → terza).
+// I vecchi indirizzi del sito WordPress (/anno/mese/giorno/titolo/) sono reindirizzati in src/_redirects.
+const ordinali = ["", "prima", "seconda", "terza", "quarta", "quinta", "sesta", "settima", "ottava", "nona", "decima",
+  "undicesima", "dodicesima", "tredicesima", "quattordicesima", "quindicesima", "sedicesima", "diciassettesima",
+  "diciottesima", "diciannovesima", "ventesima"];
+
 export default {
   eleventyComputed: {
     layout: (data) => (data.solo_anteprima ? false : "layouts/articolo.njk"),
     permalink: (data) => {
       // Edizione annunciata senza articolo: compare solo come anteprima nella pagina del Premio
       if (data.solo_anteprima) return false;
-      const d = new Date(data.page.date);
-      const p = (n) => String(n).padStart(2, "0");
-      return `/${d.getUTCFullYear()}/${p(d.getUTCMonth() + 1)}/${p(d.getUTCDate())}/${data.page.fileSlug}/`;
+      const n = parseInt(String(data.edizione || ""), 10);
+      if (ordinali[n]) return `/premio-cavaliere-${ordinali[n]}-edizione/`;
+      return `/premio-cavaliere/${data.page.fileSlug}/`;
     },
   },
 };
