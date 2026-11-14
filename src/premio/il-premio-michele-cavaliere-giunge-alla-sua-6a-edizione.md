@@ -1,13 +1,14 @@
 ---
 title: Il Premio "Michele Cavaliere giunge alla 6ª edizione, scelti i nomi dei premiati
 edizione: 6ª edizione
+solo_anteprima: false
 date: 2024-03-20
 image: /uploads/premio-6a-edizione-foto.webp
 locandina: /uploads/premio/locandina-6a-edizione.webp?v=4
 excerpt: Cultura e impegno contro le mafie rappresentano i temi della manifestazione, giunta alla sua sesta edizione.
 ---
 
-Il Premio **"Michele Cavaliere**", giunto alla sesta edizione, nasce per ricordare la figura di **Michele Cavaliere**, imprenditore di Gragnano ucciso dalla camorra il 19 novembre 1996 per aver denunciato un'estorsione.
+Il Premio **"**Michele Cavaliere", giunto alla sesta edizione, nasce per ricordare la figura di **Michele Cavaliere**, imprenditore di Gragnano ucciso dalla camorra il 19 novembre 1996 per aver denunciato un'estorsione.
 
 L’iniziativa intende valorizzare personalità che, nei rispettivi ambiti professionali e di vita, si sono distinte per coraggio civile, integrità morale e impegno concreto nella lotta al racket, all’usura, alle mafie e alla corruzione, contribuendo alla diffusione della cultura della legalità e alla tutela delle libertà fondamentali.
 
