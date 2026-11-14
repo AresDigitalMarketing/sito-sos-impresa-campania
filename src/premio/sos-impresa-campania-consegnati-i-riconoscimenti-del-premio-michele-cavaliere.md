@@ -1,13 +1,14 @@
 ---
 title: Consegnati gli attestati della 3ª edizione del Premio “Michele Cavaliere”
 edizione: 3ª edizione
+solo_anteprima: false
 date: 2021-07-12
 image: /uploads/premio/premio-3a-edizione.webp
 locandina: /uploads/premio/locandina-3a-edizione.webp?v=2
 excerpt: La cerimonia di consegna si è svolta lo scorso 7 luglio presso la chiesa di Sant’Erasmo di Gragnano.
 ---
 
-Si è svolta mercoledì 7 luglio la cerimonia di consegna dei riconoscimenti della terza edizione del Premio “**Michele Cavaliere**”.
+Si è svolta mercoledì 7 luglio la cerimonia di consegna dei riconoscimenti della terza edizione del Premio “Michele Cavaliere”.
 
 L’evento, dedicato alla memoria dell’imprenditore di Gragnano ucciso dalla criminalità organizzata nel 1996, è stato ospitato dalla chiesa di Sant’Erasmo di Gragnano. Una scelta non casuale: la parrocchia è la stessa che frequentava **Michele Cavaliere** e nella quale si recava ogni domenica per la messa.
 
