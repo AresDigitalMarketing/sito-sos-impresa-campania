@@ -1,15 +1,16 @@
 ---
 title: Palazzo Farnese celebra la 5ª edizione del Premio “Michele Cavaliere”
 edizione: 5ª edizione
+solo_anteprima: false
 date: 2023-11-22
 image: /uploads/premio/premio-5a-edizione.webp
 locandina: /uploads/premio/locandina-5a-edizione.webp?v=2
 excerpt: Venerdì 9 novembre, presso l’aula consiliare di Palazzo Farnese, si è tenuta la quinta edizione del Premio.
 ---
 
-Venerdì 9 novembre alle ore 10.30, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio “**Michele Cavaliere**”.
+Venerdì 9 novembre alle ore 10.30, presso l’aula consiliare di Palazzo Farnese, si è tenuta la 5ª edizione del Premio “Michele Cavaliere”.
 
-Presenti, tra glia altri, il Commissario Prefettizio del Comune di Castellammare di Stabia **Raffaele Cannizzaro**, il Commissario Regionale per il coordinamento delle iniziative Antiracket e Antiusura **Santi Giuffrè**, il Presidente della Commissione del Premio **Raffaele Cavaliere** (figlio di Michele), i componenti della Commissione Don **Luigi Milano**, **Amalia Dema** e **Carmen Matarazzo**, oltre al Moderatore dell’incontro, Presidente di SOS Impresa – Rete per la Legalità Aps e responsabile del Circolo della Legalità di Castellammare di Stabia, **Luigi Cuomo**.
+Presenti, tra glia altri, il Commissario Prefettizio del Comune di Castellammare di Stabia **Raffaele Cannizzaro**, il Commissario Regionale per il coordinamento delle iniziative Antiracket e Antiusura **Santi Giuffrè**, il Presidente della Commissione del Premio **Raffaele Cavaliere** (figlio di Michele), i componenti della Commissione **Don** **Luigi Milano**, **Amalia Dema** e **Carmen Matarazzo**, oltre al Moderatore dell’incontro, Presidente di SOS Impresa – Rete per la Legalità Aps e responsabile del Circolo della Legalità di Castellammare di Stabia, **Luigi Cuomo**.
 
 Di seguito i premiati e le motivazioni che hanno portato all’assegnazione del Premio:
 
