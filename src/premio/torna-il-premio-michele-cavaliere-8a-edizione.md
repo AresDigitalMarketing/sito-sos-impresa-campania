@@ -1,5 +1,5 @@
 ---
-title: 'Torna il Premio "Michele Cavaliere": svelati i premiati dell’8ª edizione'
+title: 'Torna il Premio "Michele Cavaliere": svelati i nomi dei premiati dell’8ª edizione'
 edizione: 8ª edizione
 date: 2026-11-14
 locandina: /uploads/premio/locandina-8a-edizione.webp
