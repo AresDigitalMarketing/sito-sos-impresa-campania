@@ -1,9 +1,12 @@
 ---
-title: "“La scelta di Mauro contro il racket”: SOS Impresa presenta il suo nuovo fumetto tratto da una storia vera"
+title: '“La scelta di Mauro contro il racket”: SOS Impresa presenta il suo nuovo fumetto antiracket'
+titolo_righe: ''
 date: 2026-04-20
 image: /wp-content/uploads/2026/04/PHOTO-2026-04-27-22-58-43.jpg
-image_alt: "Una vignetta del fumetto antiracket"
-excerpt: "Il nuovo fumetto antiracket nasce da una storia vera di liberazione dal ricatto estorsivo della camorra."
+image_alt: Una vignetta del fumetto antiracket
+excerpt: L'idea nasce da una storia vera di liberazione dal ricatto estorsivo della camorra.
+video: ''
+galleria: []
 ---
 
 Il prossimo 30 aprile, alle ore 10:00, presso il Circolo della Legalità di Castellammare di Stabia, SOS Impresa – Rete per la Legalità Campania presenterà ufficialmente il suo nuovo fumetto antiracket, tratto da una storia vera di liberazione dal ricatto estorsivo della camorra, che si inserisce in un percorso già avviato di educazione alla legalità nelle scuole e nei territori.
