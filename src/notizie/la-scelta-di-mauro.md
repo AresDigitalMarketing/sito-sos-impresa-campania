@@ -9,7 +9,7 @@ video: ''
 galleria: []
 ---
 
-Il prossimo 30 aprile, alle ore 10:00, presso il Circolo della Legalità di Castellammare di Stabia, SOS Impresa – Rete per la Legalità Campania presenterà ufficialmente il suo nuovo fumetto antiracket, tratto da una storia vera di liberazione dal ricatto estorsivo della camorra, che si inserisce in un percorso già avviato di educazione alla legalità nelle scuole e nei territori.
+Il prossimo 30 aprile, alle ore 10:00, presso il Circolo della Legalità di Castellammare di Stabia, SOS Impresa – Rete per la Legalità Campania Aps presenterà ufficialmente il suo nuovo fumetto antiracket, tratto da una storia vera di liberazione dal ricatto estorsivo della camorra, che si inserisce in un percorso già avviato di educazione alla legalità nelle scuole e nei territori.
 
 L’iniziativa, aperta alla cittadinanza, vedrà la partecipazione di rappresentanti istituzionali, giovani, associazioni e forze dell’ordine.
 
