@@ -9,7 +9,7 @@ video: ''
 galleria: []
 ---
 
-È il procuratore generale di Napoli Aldo Policastro il protagonista dell’8ª edizione del Premio per la Legalità “Michele Cavaliere”, consegnato giovedì 26 novembre nella sede del Circolo Intercomunale della Legalità di Castellammare di Stabia. Insieme a lui sono stati premiati don Michele Di Martino, il giornalista del Fatto Quotidiano Vincenzo Iurillo e il maggiore Giuseppe De Lisa, comandante della Compagnia dei Carabinieri di Castellammare di Stabia.
+È il procuratore generale di Napoli Aldo Policastro il protagonista dell’8ª edizione del Premio per la Legalità “Michele Cavaliere”, consegnato giovedì 26 novembre nella sede del Circolo Intercomunale della Legalità di Castellammare di Stabia. Insieme a lui sono stati premiati don Michele Di Martino, il giornalista del Fatto Quotidiano Vincenzo Iurillo e il maggiore Giuseppe De Lisa, comandante della Compagnia dei Carabinieri di Castellammare.
 
 Il Premio, promosso da SOS Impresa Rete per la Legalità Aps con il patrocinio della Città di Castellammare di Stabia dal Circolo Intercomunale della Legalità, riconosce l’impegno nella diffusione della cultura della legalità e nella lotta al racket, all’usura e alla corruzione. Ogni anno rinnova la memoria di Michele Cavaliere, imprenditore di Gragnano ucciso dalla camorra dopo essersi opposto al pizzo e aver denunciato il tentativo di estorsione subito dalla sua azienda.
 
