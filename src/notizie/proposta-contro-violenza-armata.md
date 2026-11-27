@@ -1,9 +1,12 @@
 ---
-title: "Più investigazione e collaborazione per la città: la proposta di SOS Impresa per fermare la violenza armata a Napoli"
+title: 'Più investigazione e collaborazione per la città: la nostra proposta per fermare la violenza armata a Napoli'
+titolo_righe: ''
 date: 2026-07-02
 image: /wp-content/uploads/2026/07/Montesanto-Stazione.jpg
-image_alt: "La stazione di Montesanto a Napoli"
-excerpt: "La proposta di SOS Impresa – Rete per la Legalità Campania: più attività investigativa, più intelligence territoriale, più collaborazione tra istituzioni e società civile."
+image_alt: La stazione di Montesanto a Napoli
+excerpt: 'La proposta di SOS Impresa – Rete per la Legalità Campania: più attività investigativa, più intelligence territoriale, più collaborazione tra istituzioni e società civile.'
+video: ''
+galleria: []
 ---
 
 Le immagini provenienti da Montesanto hanno colpito profondamente la coscienza della città: vedere un uomo aggirarsi con un’arma da guerra tra residenti e turisti non può essere considerato un episodio isolato o una semplice pagina di cronaca, ma è il sintomo di una violenza che sta assumendo caratteristiche sempre più preoccupanti.
