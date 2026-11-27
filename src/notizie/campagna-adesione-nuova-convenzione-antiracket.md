@@ -1,9 +1,12 @@
 ---
-title: "Legalità: SOS Impresa, al via la campagna di adesione alla nuova Convenzione Antiracket"
+title: 'Legalità: SOS Impresa, al via la campagna di adesione alla nuova Convenzione Antiracket'
+titolo_righe: ''
 date: 2025-09-18
 image: /uploads/notizie/campagna-adesione-convenzione-antiracket.webp
-image_alt: "Un commerciante con il cartello Antiracket"
-excerpt: "Una campagna per rafforzare la rete di resistenza contro il racket e diffondere la cultura della denuncia."
+image_alt: Domenico Giordano aderisce alla Convenzione Antiracket
+excerpt: Una campagna per rafforzare la rete di resistenza contro il racket e diffondere la cultura della denuncia.
+video: ''
+galleria: []
 ---
 
 È stata avviata questa mattina la campagna di adesione alla nuova Convenzione Antiracket, promossa dalle associazioni “SOS Impresa Rete per la Legalità Aps” e “Pianura per la Legalità in memoria di Gigi e Paolo Aps”. L’iniziativa mira a rafforzare la rete di resistenza contro il racket ancora presente in diverse aree della città favorendo una più diffusa cultura della denuncia.
