@@ -4,7 +4,7 @@ titolo_righe: ''
 date: 2026-04-20
 image: /wp-content/uploads/2026/04/PHOTO-2026-04-27-22-58-43.jpg
 image_alt: Una vignetta del fumetto antiracket
-excerpt: Il racconto trae origine da una storia vera di liberazione dal ricatto estorsivo della camorra.
+excerpt: Il racconto illustrato trae origine da una storia vera di liberazione dal ricatto estorsivo della camorra.
 video: ''
 galleria: []
 ---
