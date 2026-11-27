@@ -1,9 +1,12 @@
 ---
-title: "3ª Giornata Nazionale Antiracket promossa da SOS Impresa – Rete per la Legalità"
+title: 3ª Giornata Nazionale Antiracket promossa da SOS Impresa – Rete per la Legalità
+titolo_righe: ''
 date: 2025-12-31
 image: /wp-content/uploads/2025/12/Libero-Grassi.jpg
-image_alt: "Libero Grassi"
-excerpt: "Il 10 gennaio è la data simbolo della nascita del movimento antiracket."
+image_alt: Libero Grassi
+excerpt: Per il terzo anno consecutivo, il 10 gennaio si celebrerà l'anniversario della nascita del movimento antiracket su tutto il territorio nazionale.
+video: ''
+galleria: []
 ---
 
 Il 10 gennaio è la data simbolo della nascita del movimento antiracket, ma le iniziative si svolgeranno prima e dopo questa giornata, in molte città italiane, con incontri, eventi e momenti di confronto diffusi sul territorio.
