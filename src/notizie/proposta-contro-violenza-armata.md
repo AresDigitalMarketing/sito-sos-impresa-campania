@@ -13,7 +13,7 @@ Le immagini provenienti da Montesanto hanno colpito profondamente la coscienza d
 
 Negli ultimi mesi Napoli ha assistito a una sequenza di omicidi, sparatorie e “stese” che hanno alimentato un crescente senso di insicurezza. A farne le spese non sono soltanto le persone direttamente coinvolte nelle dinamiche criminali, ma l’intera comunità: famiglie, imprenditori, commercianti e cittadini che ogni giorno vivono e lavorano nei quartieri della città.
 
-SOS Impresa – Rete per la Legalità Campania ritiene che sia arrivato il momento di affrontare questa emergenza con un approccio diverso: l’impegno delle forze dell’ordine e della magistratura continua a produrre risultati importanti e rappresenta un presidio fondamentale della legalità, ma la sola repressione successiva ai fatti non è sufficiente se non è accompagnata da una strategia capace di prevenire la violenza prima che si manifesti.
+SOS Impresa – Rete per la Legalità Campania Aps ritiene che sia arrivato il momento di affrontare questa emergenza con un approccio diverso: l’impegno delle forze dell’ordine e della magistratura continua a produrre risultati importanti e rappresenta un presidio fondamentale della legalità, ma la sola repressione successiva ai fatti non è sufficiente se non è accompagnata da una strategia capace di prevenire la violenza prima che si manifesti.
 
 Per questo l’associazione propone un rafforzamento stabile delle attività investigative e dell’intelligence territoriale, affinché sia possibile comprendere in anticipo le dinamiche criminali, intercettare la disponibilità delle armi e individuare tempestivamente i soggetti più pericolosi.
 
