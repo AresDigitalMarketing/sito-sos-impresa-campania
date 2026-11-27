@@ -1,12 +1,15 @@
 ---
-title: "Anna Ferrara è il nuovo Presidente del Coordinamento Regionale della Campania"
+title: Anna Ferrara è il nuovo Presidente del Coordinamento Regionale della Campania
+titolo_righe: ''
 date: 2025-10-31
 image: /wp-content/uploads/2025/11/PHOTO-2025-12-02-19-17-14-2.jpg
-image_alt: "Anna Ferrara con i soci dell’associazione"
-excerpt: "L’Assemblea regionale dei soci ha eletto all’unanimità Anna Ferrara nuova Presidente regionale."
+image_alt: Anna Ferrara con i soci dell’associazione
+excerpt: L’Assemblea regionale dei soci ha eletto all’unanimità Anna Ferrara nuova Presidente regionale.
+video: ''
+galleria: []
 ---
 
-Questa mattina, alle ore 11.00, presso la sede regionale di SOS Impresa – Rete per la Legalità Campania in Via Toledo 148 a Napoli, si è svolta l’Assemblea regionale dei soci, convocata per discutere, tra gli altri punti all’ordine del giorno, le dimissioni del Presidente regionale Luigi Cuomo e l’elezione del nuovo Presidente.
+Questa mattina, alle ore 11.00, presso la sede regionale di SOS Impresa – Rete per la Legalità Campania Aps in Via Toledo 148 a Napoli, si è svolta l’Assemblea regionale dei soci, convocata per discutere, tra gli altri punti all’ordine del giorno, le dimissioni del Presidente regionale Luigi Cuomo e l’elezione del nuovo Presidente.
 
 Nel corso dei lavori, Luigi Cuomo ha espresso profonda gratitudine a tutti i soci e ai dirigenti dell’Associazione per la collaborazione, la fiducia e il sostegno ricevuti nei suoi quindici anni di direzione, durante i quali SOS Impresa Campania ha consolidato la propria rete territoriale, promosso numerose iniziative a favore delle vittime di racket e usura e rafforzato la cultura della legalità e della denuncia.
 
