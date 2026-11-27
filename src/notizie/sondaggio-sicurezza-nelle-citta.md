@@ -1,9 +1,12 @@
 ---
-title: "Sicurezza percepita nelle città: una ricerca nazionale dà voce ai cittadini"
+title: 'Sicurezza percepita nelle città: una ricerca nazionale promossa da SOS Impresa dà voce ai cittadini'
+titolo_righe: ''
 date: 2026-03-20
 image: /wp-content/uploads/2026/03/Intervista-Maschile-Orizzontale.png
-image_alt: "Un’intervista per strada"
-excerpt: "Una ricerca nazionale sulla percezione della sicurezza nelle città italiane."
+image_alt: Un’intervista per strada
+excerpt: Una ricerca nazionale sulla percezione della sicurezza nelle città italiane.
+video: ''
+galleria: []
 ---
 
 Quanto si sentono sicuri i cittadini nelle proprie città? Quanto incide la presenza della criminalità organizzata nella vita quotidiana delle persone e nelle attività economiche dei territori?
