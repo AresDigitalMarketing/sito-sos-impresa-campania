@@ -4,7 +4,7 @@ titolo_righe: ''
 date: 2025-12-31
 image: /wp-content/uploads/2025/12/Libero-Grassi.jpg
 image_alt: Libero Grassi
-excerpt: Per il terzo anno consecutivo, il 10 gennaio si celebrerà l'anniversario della nascita del movimento antiracket su tutto il territorio nazionale.
+excerpt: Il 10 gennaio si celebrerà l'anniversario della nascita del movimento antiracket su tutto il territorio nazionale.
 video: ''
 galleria: []
 ---
