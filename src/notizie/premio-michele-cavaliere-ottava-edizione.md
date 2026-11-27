@@ -2,7 +2,7 @@
 title: Il Premio “Michele Cavaliere” al procuratore generale Aldo Policastro
 titolo_righe: ''
 date: 2026-11-27
-image: /uploads/notizie/premio-michele-cavaliere-2026-premiati.webp
+image: /uploads/notizie/premio-michele-cavaliere-2026-premiati.webp?v=2
 image_alt: Premiati e organizzatori dell’8ª edizione del Premio “Michele Cavaliere” a Castellammare di Stabia
 excerpt: Riconoscimenti anche a don Michele Di Martino, al giornalista Vincenzo Iurillo e al maggiore Giuseppe De Lisa.
 video: ''
