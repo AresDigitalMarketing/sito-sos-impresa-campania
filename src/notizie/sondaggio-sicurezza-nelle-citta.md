@@ -3,7 +3,7 @@ title: 'Sicurezza percepita nelle città: una ricerca nazionale promossa da SOS 
 titolo_righe: ''
 date: 2026-03-20
 image: /wp-content/uploads/2026/03/Intervista-Maschile-Orizzontale.png
-image_alt: Un’intervista per strada
+image_alt: Immagine generata con intelligenza artificiale
 excerpt: Partecipa anche tu alla ricerca nazionale sulla percezione della sicurezza nelle città italiane compilando il sondaggio.
 video: ''
 galleria: []
