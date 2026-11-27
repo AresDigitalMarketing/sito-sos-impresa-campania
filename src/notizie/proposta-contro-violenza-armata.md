@@ -4,7 +4,7 @@ titolo_righe: ''
 date: 2026-07-02
 image: /wp-content/uploads/2026/07/Montesanto-Stazione.jpg
 image_alt: La stazione di Montesanto a Napoli
-excerpt: 'La proposta di SOS Impresa – Rete per la Legalità Campania: più attività investigativa, più intelligence territoriale, più collaborazione tra istituzioni e società civile.'
+excerpt: Più attività investigativa, più intelligence territoriale, più collaborazione tra istituzioni e società civile.
 video: ''
 galleria: []
 ---
